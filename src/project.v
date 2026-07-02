@@ -20,6 +20,7 @@ module tt_um_algofoogle_gf_analog (
     input  wire       rst_n     // reset_n - low to reset
 );
 
+
     wire vco_out; // Weakly buffered output from main VCO block.
     wire ana_vco_in; // Buffered VCO output, going into the digital block.
 
@@ -37,22 +38,6 @@ module tt_um_algofoogle_gf_analog (
         .uo_out     (uo_out),
         .dacn       (dacn)
     );
-
-    wire [5:0] avo;
-    wire [5:0] dvo;
-    clkdiv clkdiv_0 (
-        .VDD        (VDPWR),
-        .VSS        (VGND),
-        .ana_vco_in (ana_vco_in),
-        .dac_vco_in (dac_vco_in),
-        .avo        (avo),
-        .dvo        (dvo),
-        .uio_oe     (uio_oe)
-    );
-    assign uio_out = {
-        dvo[5], dvo[4], dvo[1], dvo[0],
-        avo[5], avo[4], avo[1], avo[0],
-    };
 
     // DAC-driven VCO, with output buffers going to dac_vco_in and ua[3].
     wire dac_vco_osc;
@@ -91,18 +76,21 @@ module tt_um_algofoogle_gf_analog (
         .Y          (ua[3])
     );
 
-    // digital digital_0 (
-    //     .VDD        (VDPWR),
-    //     .VSS        (VGND),
-    //     .clk        (clk),
-    //     .rst_n      (rst_n),
-    //     .vco_in     (vco_in),
-    //     .ui_in      (ui_in),
-    //     .uio_in     (uio_in),
-    //     .uio_oe     (uio_oe),
-    //     .uio_out    (uio_out),
-    //     .uo_out     (uo_out)
-    // );
+    wire [5:0] avo;
+    wire [5:0] dvo;
+    clkdiv clkdiv_0 (
+        .VDD        (VDPWR),
+        .VSS        (VGND),
+        .ana_vco_in (ana_vco_in),
+        .dac_vco_in (dac_vco_in),
+        .avo        (avo),
+        .dvo        (dvo),
+        .uio_oe     (uio_oe)
+    );
+    assign uio_out = {
+        dvo[5], dvo[4], dvo[1], dvo[0],
+        avo[5], avo[4], avo[1], avo[0]
+    };
 
     // Buffer vco_out and send it out ua[1]:
     wire ua1buf_mid;
@@ -158,5 +146,7 @@ module tt_um_algofoogle_gf_analog (
         // .vbiasn(),
         // .osc_raw(),
     );
+
+    wire _unused = &{ena, avo[3:2], dvo[3:2], 0};
 
 endmodule

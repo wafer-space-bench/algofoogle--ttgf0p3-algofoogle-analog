@@ -21,7 +21,7 @@ module tt_um_algofoogle_gf_analog (
 );
 
     wire vco_out; // Weakly buffered output from main VCO block.
-    wire vco_in; // Buffered VCO output, going into the digital block.
+    wire ana_vco_in; // Buffered VCO output, going into the digital block.
 
     wire vin = ua[0]; // Analog VCO control voltage.
 
@@ -38,8 +38,27 @@ module tt_um_algofoogle_gf_analog (
         .dacn       (dacn)
     );
 
+    wire [5:0] avo;
+    wire [5:0] dvo;
+    clkdiv clkdiv_0 (
+        .VDD        (VDPWR),
+        .VSS        (VGND),
+        .ana_vco_in (ana_vco_in),
+        .dac_vco_in (dac_vco_in),
+        .avo        (avo),
+        .dvo        (dvo),
+        .uio_oe     (uio_oe)
+    );
+    assign uio_out = {
+        dvo[5], dvo[4], dvo[1], dvo[0],
+        avo[5], avo[4], avo[1], avo[0],
+    };
+
     // DAC-driven VCO, with output buffers going to dac_vco_in and ua[3].
     wire dac_vco_osc;
+    wire dac_vco_buf_mid;
+    wire dac_vco_in;
+    wire ua3buf_mid;
     vco_combo vco_combo_0 (
         .VPWR       (VDPWR),
         .VGND       (VGND),
@@ -51,28 +70,39 @@ module tt_um_algofoogle_gf_analog (
         .VCC        (VDPWR),
         .VSS        (VGND),
         .A          (dac_vco_osc),
-        .Y          (dac_vco_in)
+        .Y          (dac_vco_buf_mid) // dac_vco_in 
     );
     bufinv_2 dvtxb1 (
         .VCC        (VDPWR),
         .VSS        (VGND),
+        .A          (dac_vco_buf_mid),
+        .Y          (dac_vco_in)
+    );
+    bufinv_2 ua3buf0 (
+        .VCC        (VDPWR),
+        .VSS        (VGND),
         .A          (dac_vco_in),
+        .Y          (ua3buf_mid)
+    );
+    bufinv_2 ua3buf1 (
+        .VCC        (VDPWR),
+        .VSS        (VGND),
+        .A          (ua3buf_mid),
         .Y          (ua[3])
     );
 
-
-    digital digital_0 (
-        .VDD        (VDPWR),
-        .VSS        (VGND),
-        .clk        (clk),
-        .rst_n      (rst_n),
-        .vco_in     (vco_in),
-        .ui_in      (ui_in),
-        .uio_in     (uio_in),
-        .uio_oe     (uio_oe),
-        .uio_out    (uio_out),
-        .uo_out     (uo_out)
-    );
+    // digital digital_0 (
+    //     .VDD        (VDPWR),
+    //     .VSS        (VGND),
+    //     .clk        (clk),
+    //     .rst_n      (rst_n),
+    //     .vco_in     (vco_in),
+    //     .ui_in      (ui_in),
+    //     .uio_in     (uio_in),
+    //     .uio_oe     (uio_oe),
+    //     .uio_out    (uio_out),
+    //     .uo_out     (uo_out)
+    // );
 
     // Buffer vco_out and send it out ua[1]:
     wire ua1buf_mid;
@@ -116,7 +146,7 @@ module tt_um_algofoogle_gf_analog (
         .VCC        (VDPWR),
         .VSS        (VGND),
         .A          (rxdigbuf_mid),
-        .Y          (vco_in)
+        .Y          (ana_vco_in)
     );
 
     csringosc csringosc_0 (

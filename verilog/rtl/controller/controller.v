@@ -44,7 +44,10 @@ module controller(
 
     // Ensure unregistered RGB values get visible-gated and registered:
     always @(posedge clk)
-        {R,G,B} <= rgb_unreg & {{6}{visible}};
+        if (reset)
+            {R,G,B} <= 0;
+        else
+            {R,G,B} <= rgb_unreg & {{6}{visible}};
 
     wire vga_mode = ui_in[7];
 

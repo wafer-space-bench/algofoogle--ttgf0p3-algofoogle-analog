@@ -14,7 +14,7 @@ if {$project eq "tt_um_algofoogle_gf_analog"} {
 
     # Add GL verilog of digital block(s) (i.e. flat file from LibreLane hardening):
     readnet verilog ../verilog/gl/controller.pnl.v $schem
-    readnet verilog ../verilog/gl/clkdiv.pnl.v $schem
+    readnet verilog ../verilog/gl/fastblock.pnl.v $schem
 
     # Top-level abstract integration verilog, e.g. main project.v, or LVS-tweaked version:
     # readnet verilog ../src/LVS-project.v $schem

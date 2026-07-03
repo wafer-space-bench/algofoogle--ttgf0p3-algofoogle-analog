@@ -82,11 +82,11 @@ module fastblock(
     `LINT_ON_PINMISSING_POWER_PINS
 
     worker worker (
+        .clk        (worker_clk),
         .reset      (reset),
-        .worker_clk (worker_clk),
         .mode       (mode),
-        .h          (h),
-        .v          (v),
+        .operand_a  (operand_a),
+        .operand_b  (operand_b),
         .done       (done),
         .computed   (computed)
     );
@@ -113,11 +113,31 @@ module worker (
         if (s_reset) begin
             counter <= 0;
             done <= 0;
-        end else if (counter>=3000) begin
-            done <= 1;
-        end else begin
+        end else if (mode==0) begin
+
+            // Mode 0: Count from 0 to 3000, then stop and flag 'done'.
+            if (counter>=3000) begin
+                done <= 1;
+            end else begin
+                counter <= counter + 1;
+            end
+
+        end else if (mode==1) begin
+
+            // Mode 1: Count from 0 up to operand_b, then stop and flag 'done'.
+            if (counter>=operand_b) begin
+                done <= 1;
+            end else begin
+                counter <= counter + 1;
+            end
+
+        end else if (mode==2) begin
+
+            // Just count continuously.
             counter <= counter + 1;
+
         end
+
     end
     assign computed = counter[11:6];
 endmodule

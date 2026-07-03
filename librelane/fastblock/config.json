@@ -7,14 +7,14 @@
   ],
   "PL_TARGET_DENSITY_PCT": 40,
 
-  "RSZ_DONT_TOUCH_RX": "notouch_",
-  "PNR_SDC_FILE": "dir::project.sdc",
-  "SIGNOFF_SDC_FILE": "dir::project.sdc",
+  "RSZ_DONT_TOUCH_RX":  "notouch_",
+  "PNR_SDC_FILE":       "dir::fastblock.sdc",
+  "SIGNOFF_SDC_FILE":   "dir::fastblock.sdc",
   "RUN_CTS": 1, "//": "We run CTS, but don't use the default clocking, instead using worker_clk as described in fastblock.sdc",
-  "//CLOCK_PORT": "clk", "//": "No CTS for this macro",
-  "//CLOCK_PERIOD": 37, "//": "No CTS for this macro",
+  "CLOCK_PERIOD": 7.5, "//": "Support up to ~200MHz",
+  "CLOCK_NET": "workerclkbuff_notouch_/Z",
 
-  "//": "NOte that these options are off by default anyway:",
+  "//": "Note that these options are off by default anyway:",
   "RUN_POST_GRT_RESIZER_TIMING": 0,
   "RUN_POST_GRT_DESIGN_REPAIR": 0,
 

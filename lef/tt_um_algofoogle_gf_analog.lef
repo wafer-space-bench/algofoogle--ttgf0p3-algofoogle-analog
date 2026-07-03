@@ -1,7 +1,3 @@
-VERSION 5.7 ;
-  NOWIREEXTENSIONATPIN ON ;
-  DIVIDERCHAR "/" ;
-  BUSBITCHARS "[]" ;
 MACRO tt_um_algofoogle_gf_analog
   CLASS BLOCK ;
   FOREIGN tt_um_algofoogle_gf_analog ;
@@ -10,7 +6,7 @@ MACRO tt_um_algofoogle_gf_analog
   PIN clk
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 4.738000 ;
+    ANTENNAGATEAREA 9.476000 ;
     PORT
       LAYER Metal4 ;
         RECT 331.090 324.360 331.390 325.360 ;
@@ -167,7 +163,7 @@ MACRO tt_um_algofoogle_gf_analog
   PIN ui_in[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
+    ANTENNAGATEAREA 1.102000 ;
     PORT
       LAYER Metal4 ;
         RECT 265.570 324.360 265.870 325.360 ;
@@ -321,8 +317,7 @@ MACRO tt_um_algofoogle_gf_analog
   PIN uio_out[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.741000 ;
-    ANTENNADIFFAREA 2.080400 ;
+    ANTENNADIFFAREA 1.182800 ;
     PORT
       LAYER Metal4 ;
         RECT 134.530 324.360 134.830 325.360 ;
@@ -331,8 +326,7 @@ MACRO tt_um_algofoogle_gf_analog
   PIN uio_out[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.741000 ;
-    ANTENNADIFFAREA 2.080400 ;
+    ANTENNADIFFAREA 1.182800 ;
     PORT
       LAYER Metal4 ;
         RECT 127.250 324.360 127.550 325.360 ;
@@ -341,8 +335,7 @@ MACRO tt_um_algofoogle_gf_analog
   PIN uio_out[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.741000 ;
-    ANTENNADIFFAREA 2.080400 ;
+    ANTENNADIFFAREA 1.182800 ;
     PORT
       LAYER Metal4 ;
         RECT 119.970 324.360 120.270 325.360 ;
@@ -360,8 +353,7 @@ MACRO tt_um_algofoogle_gf_analog
   PIN uio_out[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.741000 ;
-    ANTENNADIFFAREA 2.080400 ;
+    ANTENNADIFFAREA 1.182800 ;
     PORT
       LAYER Metal4 ;
         RECT 105.410 324.360 105.710 325.360 ;
@@ -370,8 +362,7 @@ MACRO tt_um_algofoogle_gf_analog
   PIN uio_out[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.741000 ;
-    ANTENNADIFFAREA 2.080400 ;
+    ANTENNADIFFAREA 1.182800 ;
     PORT
       LAYER Metal4 ;
         RECT 98.130 324.360 98.430 325.360 ;
@@ -380,8 +371,7 @@ MACRO tt_um_algofoogle_gf_analog
   PIN uio_out[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.741000 ;
-    ANTENNADIFFAREA 2.080400 ;
+    ANTENNADIFFAREA 1.182800 ;
     PORT
       LAYER Metal4 ;
         RECT 90.850 324.360 91.150 325.360 ;
@@ -529,9 +519,9 @@ MACRO tt_um_algofoogle_gf_analog
       LAYER Metal1 ;
         RECT 35.970 14.300 336.150 319.840 ;
       LAYER Metal2 ;
-        RECT 37.790 8.050 343.850 324.490 ;
+        RECT 37.790 8.050 343.850 322.810 ;
       LAYER Metal3 ;
-        RECT 2.700 8.050 343.850 324.440 ;
+        RECT 2.700 8.050 343.850 322.760 ;
       LAYER Metal4 ;
         RECT 33.210 324.060 39.590 324.900 ;
         RECT 40.490 324.060 46.870 324.900 ;

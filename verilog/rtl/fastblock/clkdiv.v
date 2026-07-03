@@ -1,7 +1,8 @@
 `default_nettype none
 
-`define DFFCELL gf180mcu_fd_sc_mcu7t5v0__dffq_1
-`define INVCELL gf180mcu_fd_sc_mcu7t5v0__inv_1
+//NOTE: If you change any of these cells, the port names may need to be altered in any instance.
+`define DFFCELL     gf180mcu_fd_sc_mcu7t5v0__dffq_1
+`define INVCELL     gf180mcu_fd_sc_mcu7t5v0__inv_1
 
 // This is to manage lint checking to not report about unconnected power pins.
 // Thanks https://github.com/dlmiles/ttgf0p2-ringosc-5inv/blob/main/src/project.v

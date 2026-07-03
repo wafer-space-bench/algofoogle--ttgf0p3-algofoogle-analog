@@ -1,0 +1,141 @@
+** tb_top_vinramp.spice
+
+.param vcc=3.3
+.param powerup=10n
+.param rst_start=55n
+.param rst_pulse=120n
+.param rst_slew=2n
+.param clk_delay=40n
+.param clk_slew=2n
+.param clk_period=40n
+
+* Start main supply at 0V for first 0.1ns; helps initial conditions:
+Vvcc VCC    GND PWL(0ns 0v,  0.1ns 0v,  {powerup} {vcc}  )
+
+Vrst rst_n  GND PWL(    
++ 0ns                               0v          0.1ns                   0v
++ 0.2ns                             {vcc}       {rst_start}             {vcc}
++ {rst_start+rst_slew}              0v          {rst_start+rst_pulse}   0v
++ {rst_start+rst_pulse+rst_slew}    {vcc}
++ )
+
+Vclk clk    GND PULSE(0 {vcc} {clk_delay} {clk_slew} {clk_slew} {clk_period/2-clk_slew} {clk_period})
+
+* Vvin VIN GND PWL(0us 0.0v 0.1us 0.0v 2us 0.55v 10us 0.55v 15us 0.65v 50us 3.3v 51us 3.3v)
+* Vvin VIN GND PWL(0us 0.0v   0.1us 0.0v   1us 3.0v   2us 3.0v   3us 3.3v   4us 3.3v   20us 0.55v   25us 0.55v)
+Vvin VIN GND PWL(
++  0.0us 0.0v    0.1us 0.0v
++  1.0us 3.0v    1.5us 3.0v
++  2.0us 1.4v    3.0us 1.4v
++  3.5us 2.8v    4.5us 2.8v
++  5.0us 3.3v    6.0us 3.3v
++  6.5us 0.7v   10.0us 0.7v
++ 10.1us 0.0v   40.0us 3.3v
++ )
+Rvin_pex vin_pex VIN 10k
+* Rvin_pex vin_pex GND 10k  ; For now, VIN is tied to GND to disable ana_vco.
+Rvcc_pex vcc_pex VCC 10
+Rgnd_pex GND gnd_pex 10
+
+**** begin user architecture code
+
+.include /home/anton/ttsetup@ttgf26a/pdk/gf180mcuD/libs.tech/ngspice/design.ngspice
+.lib /home/anton/ttsetup@ttgf26a/pdk/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
+.lib /home/anton/ttsetup@ttgf26a/pdk/gf180mcuD/libs.tech/ngspice/sm141064.ngspice res_typical
+* .lib /home/anton/ttsetup@ttgf26a/pdk/gf180mcuD/libs.tech/ngspice/sm141064.ngspice res_statistical
+.include ../../magic/tt_um_algofoogle_gf_analog.sim.spice
+.include ttgf_analog_pin.spice
+
+
+Rin0 GND ui_in[0] 1k
+Rin1 GND ui_in[1] 1k
+Rin2 GND ui_in[2] 1k
+Rin3 GND ui_in[3] 1k
+Rin4 GND ui_in[4] 1k
+Rin5 GND ui_in[5] 1k
+Rin6 VCC ui_in[6] 1k ; test_mode is high, allowing DAC output to increment each line.
+Rin7 GND ui_in[7] 1k
+
+
+XDUT clk ena rst_n 
++    vin_pex      ua[1]      ua[2]      ua[3]      ua[4]      ua[5]      ua[6]      ua[7]
++   ui_in[0]   ui_in[1]   ui_in[2]   ui_in[3]   ui_in[4]   ui_in[5]   ui_in[6]   ui_in[7]
++  uio_in[0]  uio_in[1]  uio_in[2]  uio_in[3]  uio_in[4]  uio_in[5]  uio_in[6]  uio_in[7]
++  uio_oe[0]  uio_oe[1]  uio_oe[2]  uio_oe[3]  uio_oe[4]  uio_oe[5]  uio_oe[6]  uio_oe[7]
++ uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7]
++  uo_out[0]  uo_out[1]  uo_out[2]  uo_out[3]  uo_out[4]  uo_out[5]  uo_out[6]  uo_out[7]
++ vcc_pex gnd_pex
++ tt_um_algofoogle_gf_analog_parax
+
+
+XUA0 GND ua_pad[0] vin_pex      ttgf_analog_pin
+* NOTE: ua1_tile is ua[1] as it comes directly out of the tile,
+* before going into the XUA1 pin model, and ultimately coming
+* back out again as the external 'ua[1]' (probably attenuated).
+XUA1 GND ua_pad[1] ua[1]        ttgf_analog_pin
+XUA2 GND ua_pad[2] ua[2]        ttgf_analog_pin
+XUA3 GND ua_pad[3] ua[3]        ttgf_analog_pin
+
+
+*.options savecurrents
+.control
+save i(vvcc)
++ vcc_pex @Rvcc_pex[i]
++ gnd_pex @Rgnd_pex[i]
++ vcc
++ rst_n
++ clk
++ ua[0]
++ ua[1]
++ ua[2]
++ ua[3]
++ ua_pad[0]
++ ua_pad[1]
++ ua_pad[2]
++ ua_pad[3]
++ uio_out[0]
++ uio_out[1]
++ uio_out[2]
++ uio_out[3]
++ uio_out[4]
++ uio_out[5]
++ uio_out[6]
++ uio_out[7]
++ uo_out[0]
++ uo_out[1]
++ uo_out[2]
++ uo_out[3]
++ uo_out[4]
++ uo_out[5]
++ uo_out[6]
++ uo_out[7]
++ XDUT.vco_combo_0.dn[0]
++ XDUT.vco_combo_0.dn[1]
++ XDUT.vco_combo_0.dn[2]
++ XDUT.vco_combo_0.dn[3]
++ XDUT.vco_combo_0.dn[4]
++ XDUT.vco_combo_0.dn[5]
++ XDUT.vco_combo_0.dn[6]
++ XDUT.vco_combo_0.dn[7]
++ XDUT.vco_combo_0.dn[8]
++ XDUT.dac_vco_in
++ XDUT.ana_vco_in
++ XDUT.vco_combo_0.vco_osc
++ XDUT.ana_osc_out
+
+* save i(Vvcc) i(Vvin) vin vin_pex
+* + @Rvcc_pex[i] @Rvin_pex[i] vcc_pex gnd_pex 
+* + ua_pad[1] ua1_tile
+* + uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5]
+* + XDUT.rxdigbuf1.Y
+* + XDUT.ua1buf0.A
+** uio_out[6] uio_out[7]
+** vbiasp         vbiasn         osc         osc_raw
+** vbiasp_pex     vbiasn_pex     osc_pex     osc_raw_pex
+
+tran 50p 130us
+write tb_top_vinramp.raw
+* plot vin_pex*10 "ua[1]"+4 XDUT.rxdigbuf1.Y+4 ua1_tile+4 XDUT.ua1buf0.A+4 "uio_out[0]"+8 "uio_out[1]"+12 "uio_out[2]"+16 "uio_out[3]"+20 "uio_out[4]"+24 "uio_out[5]"+28
+.endc
+
+.end

@@ -135,6 +135,19 @@ save i(vvcc)
 tran 50p 130us
 write tb_top.raw
 * plot vin_pex*10 "ua[1]"+4 XDUT.rxdigbuf1.Y+4 ua1_tile+4 XDUT.ua1buf0.A+4 "uio_out[0]"+8 "uio_out[1]"+12 "uio_out[2]"+16 "uio_out[3]"+20 "uio_out[4]"+24 "uio_out[5]"+28
+
+* * DAC control (dacn outputs):
+* plot "xdut.vco_combo_0.dn[0]" "xdut.vco_combo_0.dn[1]"+4  "xdut.vco_combo_0.dn[2]"+8 "xdut.vco_combo_0.dn[3]"+12 "xdut.vco_combo_0.dn[4]"+16 "xdut.vco_combo_0.dn[5]"+20 "xdut.vco_combo_0.dn[6]"+24 "xdut.vco_combo_0.dn[7]"+28 "xdut.vco_combo_0.dn[8]"+32
+
+* * RGB outputs:
+* plot "uo_out[6]"+20 "uo_out[5]"+16 "uo_out[4]"+12 "uo_out[2]"+8 "uo_out[1]"+4 "uo_out[0]" "uo_out[7]"+24 "uo_out[3]"+28
+
+* * dac_vco outputs & dac_vin*10
+* plot "uio_out[4]" "uio_out[5]"+4 "uio_out[6]"+8 "uio_out[7]"+12 XDUT.dac_vco_in "ua[2]"*10
+
+* * analog pads:
+* plot "ua_pad[0]" "ua_pad[1]"+4 "ua_pad[2]"+8 "ua_pad[3]"+12
+
 .endc
 
 .end

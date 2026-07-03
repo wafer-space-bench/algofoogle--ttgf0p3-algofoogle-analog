@@ -1,18 +1,24 @@
 {
   "//": "This is the 7T (standard cell height and speed) version",
-  "DESIGN_NAME": "clkdiv",
+  "DESIGN_NAME": "fastblock",
   "VERILOG_FILES": [
-    "dir::../../verilog/rtl/clkdiv/clkdiv.v"
+    "dir::../../verilog/rtl/fastblock/clkdiv.v",
+    "dir::../../verilog/rtl/fastblock/fastblock.v"
   ],
   "PL_TARGET_DENSITY_PCT": 40,
 
-  "RUN_CTS": 0, "//": "No CTS for this macro",
+  "RSZ_DONT_TOUCH_RX": "notouch_",
+  "PNR_SDC_FILE": "dir::project.sdc",
+  "SIGNOFF_SDC_FILE": "dir::project.sdc",
+  "RUN_CTS": 1, "//": "We run CTS, but don't use the default clocking, instead using worker_clk as described in fastblock.sdc",
   "//CLOCK_PORT": "clk", "//": "No CTS for this macro",
   "//CLOCK_PERIOD": 37, "//": "No CTS for this macro",
+
+  "//": "NOte that these options are off by default anyway:",
   "RUN_POST_GRT_RESIZER_TIMING": 0,
   "RUN_POST_GRT_DESIGN_REPAIR": 0,
 
-  "DIE_AREA": "0 0 117 100",
+  "DIE_AREA": "0 0 117 170",
 
   "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
   
@@ -67,9 +73,6 @@
   },
 
   "//": "Some stuff we don't need for now, kept as an example...",
-  "//PNR_SDC_FILE": "dir::project.sdc",
-  "//SIGNOFF_SDC_FILE": "dir::project.sdc",
   "//EXTRA_EXCLUDED_CELLS": ["sg13g2_sdfbbp_1"],
-  "//RSZ_DONT_TOUCH_RX": "notouch_",
   "//": "//"
 }

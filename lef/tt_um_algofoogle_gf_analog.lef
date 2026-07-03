@@ -1,3 +1,7 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
 MACRO tt_um_algofoogle_gf_analog
   CLASS BLOCK ;
   FOREIGN tt_um_algofoogle_gf_analog ;
@@ -515,13 +519,13 @@ MACRO tt_um_algofoogle_gf_analog
   END VGND
   OBS
       LAYER Nwell ;
-        RECT 35.540 17.170 336.000 319.970 ;
+        RECT 35.540 7.670 336.000 319.970 ;
       LAYER Metal1 ;
-        RECT 35.970 14.300 336.150 319.840 ;
+        RECT 35.970 5.800 336.150 319.840 ;
       LAYER Metal2 ;
-        RECT 37.790 8.050 343.850 322.810 ;
+        RECT 37.790 2.050 343.850 322.810 ;
       LAYER Metal3 ;
-        RECT 2.700 8.050 343.850 322.760 ;
+        RECT 2.700 2.050 343.850 322.760 ;
       LAYER Metal4 ;
         RECT 33.210 324.060 39.590 324.900 ;
         RECT 40.490 324.060 46.870 324.900 ;

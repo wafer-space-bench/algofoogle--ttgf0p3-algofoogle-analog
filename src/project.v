@@ -26,17 +26,37 @@ module tt_um_algofoogle_gf_analog (
 
     wire vin = ua[0]; // Analog VCO control voltage.
 
+    // Wires that connect between fastblock and controller.
+    wire    [8:0]   dacn;
+    wire    [2:0]   clksel;
+    wire            sysclk;
+    wire    [2:0]   sysclkdelay;
+    wire            worker_reset;
+    wire    [2:0]   mode;
+    wire    [9:0]   operand_a;
+    wire    [9:0]   operand_b;
+    wire            done;
+    wire    [5:0]   computed;
+
     // Main VGA control block ("slow" 25MHz domain), and DAC driver interface:
-    wire [8:0] dacn;
     controller controller_0 (
-        .VDD        (VDPWR),
-        .VSS        (VGND),
-        .clk        (clk),
-        .rst_n      (rst_n),
-        .ui_in      (ui_in),
-        .uio_in     (uio_in),
-        .uo_out     (uo_out),
-        .dacn       (dacn)
+        .VDD            (VDPWR),
+        .VSS            (VGND),
+        .clk            (clk),
+        .rst_n          (rst_n),
+        .ui_in          (ui_in),
+        .uio_in         (uio_in),
+        .uo_out         (uo_out),
+        .dacn           (dacn),
+        .clksel         (clksel),
+        .sysclk         (sysclk),
+        .sysclkdelay    (sysclkdelay),
+        .worker_reset   (worker_reset),
+        .mode           (mode),
+        .operand_a      (operand_a),
+        .operand_b      (operand_b),
+        .done           (done),
+        .computed       (computed)
     );
 
     // DAC-driven VCO, with output buffers going to dac_vco_in and ua[3].
@@ -76,21 +96,23 @@ module tt_um_algofoogle_gf_analog (
         .Y          (ua[3])
     );
 
-    wire [5:0] avo;
-    wire [5:0] dvo;
-    clkdiv clkdiv_0 (
-        .VDD        (VDPWR),
-        .VSS        (VGND),
-        .ana_vco_in (ana_vco_in),
-        .dac_vco_in (dac_vco_in),
-        .avo        (avo),
-        .dvo        (dvo),
-        .uio_oe     (uio_oe)
+    fastblock fastblock_0 (
+        .VDD            (VDPWR),
+        .VSS            (VGND),
+        .ana_vco_in     (ana_vco_in),
+        .dac_vco_in     (dac_vco_in),
+        .uio_out        (uio_out),
+        .uio_oe         (uio_oe),
+        .clksel         (clksel),
+        .sysclk         (sysclk),
+        .sysclkdelay    (sysclkdelay),
+        .reset          (worker_reset), //NOTE: Different port name from controller.
+        .mode           (mode),
+        .operand_a      (operand_a),
+        .operand_b      (operand_b),
+        .done           (done),
+        .computed       (computed)
     );
-    assign uio_out = {
-        dvo[5], dvo[4], dvo[1], dvo[0],
-        avo[5], avo[4], avo[1], avo[0]
-    };
 
     // Buffer vco_out and send it out ua[1]:
     wire ua1buf_mid;
@@ -147,6 +169,6 @@ module tt_um_algofoogle_gf_analog (
         // .osc_raw(),
     );
 
-    wire _unused = &{ena, avo[3:2], dvo[3:2], 0};
+    wire _unused = &{ena, 0};
 
 endmodule

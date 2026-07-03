@@ -125,6 +125,19 @@ VCC                                        |VCC
 Cell pin lists are equivalent.
 Device classes bufinv and bufinv[[0]] are equivalent.
 
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__fillca |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__fillca 
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_8 and gf180mcu_fd_sc_mcu7t5v0__fillcap_8 are equivalent.
+
 Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__fillcap_4 is a black box; will not flatten Circuit 1
 
 Subcircuit pins:
@@ -138,11 +151,62 @@ VSS                                        |VSS
 Cell pin lists are equivalent.
 Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_4 and gf180mcu_fd_sc_mcu7t5v0__fillcap_4 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__buf_3 is a black box; will not flatten Circuit 1
-Class gf180mcu_fd_sc_mcu7t5v0__buf_3 (0):  Merged 4 parallel devices.
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai31_1 is a black box; will not flatten Circuit 1
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__buf_3  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__buf_3  
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai31_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai31_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+A3                                         |A3                                         
+B                                          |B                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__oai31_1 and gf180mcu_fd_sc_mcu7t5v0__oai31_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor2_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nor2_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nor2_1 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__nor2_1 and gf180mcu_fd_sc_mcu7t5v0__nor2_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nand2_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__nand2_2 (0):  Merged 2 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nand2_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nand2_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__nand2_2 and gf180mcu_fd_sc_mcu7t5v0__nand2_2 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 (0):  Merged 42 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__clkbuf |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__clkbuf 
 -------------------------------------------|-------------------------------------------
 I                                          |I                                          
 Z                                          |Z                                          
@@ -152,33 +216,7 @@ VPW                                        |VPW
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__buf_3 and gf180mcu_fd_sc_mcu7t5v0__buf_3 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__fillca |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__fillca 
--------------------------------------------|-------------------------------------------
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_64 and gf180mcu_fd_sc_mcu7t5v0__fillcap_64 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__fillcap_8 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__fillca |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__fillca 
--------------------------------------------|-------------------------------------------
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_8 and gf180mcu_fd_sc_mcu7t5v0__fillcap_8 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 and gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 are equivalent.
 
 Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__fillcap_16 is a black box; will not flatten Circuit 1
 
@@ -193,10 +231,10 @@ VSS                                        |VSS
 Cell pin lists are equivalent.
 Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_16 and gf180mcu_fd_sc_mcu7t5v0__fillcap_16 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 is a black box; will not flatten Circuit 1
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__buf_1 is a black box; will not flatten Circuit 1
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__clkbuf |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__clkbuf 
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__buf_1  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__buf_1  
 -------------------------------------------|-------------------------------------------
 I                                          |I                                          
 Z                                          |Z                                          
@@ -206,20 +244,39 @@ VPW                                        |VPW
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 and gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__buf_1 and gf180mcu_fd_sc_mcu7t5v0__buf_1 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32 is a black box; will not flatten Circuit 1
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nand3_1 is a black box; will not flatten Circuit 1
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__fillca |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__fillca 
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nand3_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nand3_ 
 -------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+A3                                         |A3                                         
+ZN                                         |ZN                                         
 VDD                                        |VDD                                        
 VNW                                        |VNW                                        
 VPW                                        |VPW                                        
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_32 and gf180mcu_fd_sc_mcu7t5v0__fillcap_32 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__nand3_1 and gf180mcu_fd_sc_mcu7t5v0__nand3_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__clkinv_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__clkinv |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__clkinv 
+-------------------------------------------|-------------------------------------------
+I                                          |I                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__clkinv_1 and gf180mcu_fd_sc_mcu7t5v0__clkinv_1 are equivalent.
 
 Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__dffq_2 is a black box; will not flatten Circuit 1
 Class gf180mcu_fd_sc_mcu7t5v0__dffq_2 (0):  Merged 2 parallel devices.
@@ -238,12 +295,63 @@ VSS                                        |VSS
 Cell pin lists are equivalent.
 Device classes gf180mcu_fd_sc_mcu7t5v0__dffq_2 and gf180mcu_fd_sc_mcu7t5v0__dffq_2 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__inv_1 is a black box; will not flatten Circuit 1
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__buf_4 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__buf_4 (0):  Merged 8 parallel devices.
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__inv_1  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__inv_1  
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__buf_4  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__buf_4  
 -------------------------------------------|-------------------------------------------
 I                                          |I                                          
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__buf_4 and gf180mcu_fd_sc_mcu7t5v0__buf_4 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__clkbuf |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__clkbuf 
+-------------------------------------------|-------------------------------------------
+I                                          |I                                          
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 and gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__and4_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__and4_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__and4_1 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+A3                                         |A3                                         
+A4                                         |A4                                         
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__and4_1 and gf180mcu_fd_sc_mcu7t5v0__and4_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi21_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi21_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi21_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B                                          |B                                          
 ZN                                         |ZN                                         
 VDD                                        |VDD                                        
 VNW                                        |VNW                                        
@@ -251,52 +359,37 @@ VPW                                        |VPW
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__inv_1 and gf180mcu_fd_sc_mcu7t5v0__inv_1 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__aoi21_1 and gf180mcu_fd_sc_mcu7t5v0__aoi21_1 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__dlyb_1 is a black box; will not flatten Circuit 1
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__fillcap_32 is a black box; will not flatten Circuit 1
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__dlyb_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__dlyb_1 
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__fillca |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__fillca 
 -------------------------------------------|-------------------------------------------
-I                                          |I                                          
-Z                                          |Z                                          
 VDD                                        |VDD                                        
 VNW                                        |VNW                                        
 VPW                                        |VPW                                        
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__dlyb_1 and gf180mcu_fd_sc_mcu7t5v0__dlyb_1 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_32 and gf180mcu_fd_sc_mcu7t5v0__fillcap_32 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__buf_2 is a black box; will not flatten Circuit 1
-Class gf180mcu_fd_sc_mcu7t5v0__buf_2 (0):  Merged 2 parallel devices.
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__dffq_4 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__dffq_4 (0):  Merged 8 parallel devices.
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__buf_2  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__buf_2  
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__dffq_4 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__dffq_4 
 -------------------------------------------|-------------------------------------------
-I                                          |I                                          
-Z                                          |Z                                          
+D                                          |D                                          
+CLK                                        |CLK                                        
+Q                                          |Q                                          
 VDD                                        |VDD                                        
 VNW                                        |VNW                                        
 VPW                                        |VPW                                        
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__buf_2 and gf180mcu_fd_sc_mcu7t5v0__buf_2 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__tieh is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__tieh   |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__tieh   
--------------------------------------------|-------------------------------------------
-Z                                          |Z                                          
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__tieh and gf180mcu_fd_sc_mcu7t5v0__tieh are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__dffq_4 and gf180mcu_fd_sc_mcu7t5v0__dffq_4 are equivalent.
 
 Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor3_1 is a black box; will not flatten Circuit 1
 
@@ -315,6 +408,211 @@ VSS                                        |VSS
 Cell pin lists are equivalent.
 Device classes gf180mcu_fd_sc_mcu7t5v0__nor3_1 and gf180mcu_fd_sc_mcu7t5v0__nor3_1 are equivalent.
 
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__mux2_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__mux2_2 (0):  Merged 2 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__mux2_2 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__mux2_2 
+-------------------------------------------|-------------------------------------------
+I0                                         |I0                                         
+I1                                         |I1                                         
+S                                          |S                                          
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__mux2_2 and gf180mcu_fd_sc_mcu7t5v0__mux2_2 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__and2_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__and2_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__and2_1 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__and2_1 and gf180mcu_fd_sc_mcu7t5v0__and2_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai32_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__oai32_2 (0):  Merged 5 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai32_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai32_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+A3                                         |A3                                         
+B1                                         |B1                                         
+B2                                         |B2                                         
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__oai32_2 and gf180mcu_fd_sc_mcu7t5v0__oai32_2 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__xor2_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__xor2_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__xor2_1 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__xor2_1 and gf180mcu_fd_sc_mcu7t5v0__xor2_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__inv_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__inv_1  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__inv_1  
+-------------------------------------------|-------------------------------------------
+I                                          |I                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__inv_1 and gf180mcu_fd_sc_mcu7t5v0__inv_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__buf_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__buf_2 (0):  Merged 2 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__buf_2  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__buf_2  
+-------------------------------------------|-------------------------------------------
+I                                          |I                                          
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__buf_2 and gf180mcu_fd_sc_mcu7t5v0__buf_2 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai211_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai211 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai211 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B                                          |B                                          
+C                                          |C                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__oai211_1 and gf180mcu_fd_sc_mcu7t5v0__oai211_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__or2_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__or2_1  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__or2_1  
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__or2_1 and gf180mcu_fd_sc_mcu7t5v0__or2_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi21_4 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__aoi21_4 (0):  Merged 12 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi21_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi21_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B                                          |B                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__aoi21_4 and gf180mcu_fd_sc_mcu7t5v0__aoi21_4 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nand4_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nand4_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nand4_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+A3                                         |A3                                         
+A4                                         |A4                                         
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__nand4_1 and gf180mcu_fd_sc_mcu7t5v0__nand4_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__inv_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__inv_2 (0):  Merged 2 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__inv_2  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__inv_2  
+-------------------------------------------|-------------------------------------------
+I                                          |I                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__inv_2 and gf180mcu_fd_sc_mcu7t5v0__inv_2 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai22_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai22_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai22_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+B2                                         |B2                                         
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__oai22_1 and gf180mcu_fd_sc_mcu7t5v0__oai22_1 are equivalent.
+
 Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nand2_1 is a black box; will not flatten Circuit 1
 
 Subcircuit pins:
@@ -330,6 +628,128 @@ VSS                                        |VSS
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes gf180mcu_fd_sc_mcu7t5v0__nand2_1 and gf180mcu_fd_sc_mcu7t5v0__nand2_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi221_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi221 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi221 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+B2                                         |B2                                         
+C                                          |C                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__aoi221_1 and gf180mcu_fd_sc_mcu7t5v0__aoi221_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor3_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__nor3_2 (0):  Merged 3 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nor3_2 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nor3_2 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+A3                                         |A3                                         
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__nor3_2 and gf180mcu_fd_sc_mcu7t5v0__nor3_2 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 (0):  Merged 2 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__clkbuf |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__clkbuf 
+-------------------------------------------|-------------------------------------------
+I                                          |I                                          
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 and gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__and3_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__and3_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__and3_1 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+A3                                         |A3                                         
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__and3_1 and gf180mcu_fd_sc_mcu7t5v0__and3_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai21_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai21_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai21_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B                                          |B                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__oai21_1 and gf180mcu_fd_sc_mcu7t5v0__oai21_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__dlyb_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__dlyb_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__dlyb_1 
+-------------------------------------------|-------------------------------------------
+I                                          |I                                          
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__dlyb_1 and gf180mcu_fd_sc_mcu7t5v0__dlyb_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__mux4_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__mux4_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__mux4_1 
+-------------------------------------------|-------------------------------------------
+I0                                         |I0                                         
+I1                                         |I1                                         
+I2                                         |I2                                         
+I3                                         |I3                                         
+S0                                         |S0                                         
+S1                                         |S1                                         
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__mux4_1 and gf180mcu_fd_sc_mcu7t5v0__mux4_1 are equivalent.
 
 Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor4_2 is a black box; will not flatten Circuit 1
 Class gf180mcu_fd_sc_mcu7t5v0__nor4_2 (0):  Merged 4 parallel devices.
@@ -350,8 +770,76 @@ VSS                                        |VSS
 Cell pin lists are equivalent.
 Device classes gf180mcu_fd_sc_mcu7t5v0__nor4_2 and gf180mcu_fd_sc_mcu7t5v0__nor4_2 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai31_4 is a black box; will not flatten Circuit 1
-Class gf180mcu_fd_sc_mcu7t5v0__oai31_4 (0):  Merged 17 parallel devices.
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__xnor2_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__xnor2_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__xnor2_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__xnor2_1 and gf180mcu_fd_sc_mcu7t5v0__xnor2_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi22_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi22_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi22_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+B2                                         |B2                                         
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__aoi22_1 and gf180mcu_fd_sc_mcu7t5v0__aoi22_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__dffq_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__dffq_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__dffq_1 
+-------------------------------------------|-------------------------------------------
+D                                          |D                                          
+CLK                                        |CLK                                        
+Q                                          |Q                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__dffq_1 and gf180mcu_fd_sc_mcu7t5v0__dffq_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi211_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi211 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi211 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B                                          |B                                          
+C                                          |C                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__aoi211_1 and gf180mcu_fd_sc_mcu7t5v0__aoi211_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai31_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__oai31_2 (0):  Merged 5 parallel devices.
 
 Subcircuit pins:
 Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai31_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai31_ 
@@ -367,12 +855,13 @@ VPW                                        |VPW
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__oai31_4 and gf180mcu_fd_sc_mcu7t5v0__oai31_4 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__oai31_2 and gf180mcu_fd_sc_mcu7t5v0__oai31_2 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__and2_1 is a black box; will not flatten Circuit 1
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__xor2_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__xor2_2 (0):  Merged 2 parallel devices.
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__and2_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__and2_1 
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__xor2_2 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__xor2_2 
 -------------------------------------------|-------------------------------------------
 A1                                         |A1                                         
 A2                                         |A2                                         
@@ -383,73 +872,7 @@ VPW                                        |VPW
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__and2_1 and gf180mcu_fd_sc_mcu7t5v0__and2_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nand2_2 is a black box; will not flatten Circuit 1
-Class gf180mcu_fd_sc_mcu7t5v0__nand2_2 (0):  Merged 2 parallel devices.
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nand2_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nand2_ 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-ZN                                         |ZN                                         
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__nand2_2 and gf180mcu_fd_sc_mcu7t5v0__nand2_2 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor2_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nor2_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nor2_1 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-ZN                                         |ZN                                         
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__nor2_1 and gf180mcu_fd_sc_mcu7t5v0__nor2_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai21_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai21_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai21_ 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-B                                          |B                                          
-ZN                                         |ZN                                         
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__oai21_1 and gf180mcu_fd_sc_mcu7t5v0__oai21_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 is a black box; will not flatten Circuit 1
-Class gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 (0):  Merged 42 parallel devices.
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__clkbuf |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__clkbuf 
--------------------------------------------|-------------------------------------------
-I                                          |I                                          
-Z                                          |Z                                          
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 and gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__xor2_2 and gf180mcu_fd_sc_mcu7t5v0__xor2_2 are equivalent.
 
 Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai32_4 is a black box; will not flatten Circuit 1
 Class gf180mcu_fd_sc_mcu7t5v0__oai32_4 (0):  Merged 17 parallel devices.
@@ -471,39 +894,24 @@ VSS                                        |VSS
 Cell pin lists are equivalent.
 Device classes gf180mcu_fd_sc_mcu7t5v0__oai32_4 and gf180mcu_fd_sc_mcu7t5v0__oai32_4 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi21_1 is a black box; will not flatten Circuit 1
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__buf_3 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__buf_3 (0):  Merged 4 parallel devices.
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi21_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi21_ 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-B                                          |B                                          
-ZN                                         |ZN                                         
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__aoi21_1 and gf180mcu_fd_sc_mcu7t5v0__aoi21_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__clkinv_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__clkinv |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__clkinv 
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__buf_3  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__buf_3  
 -------------------------------------------|-------------------------------------------
 I                                          |I                                          
-ZN                                         |ZN                                         
+Z                                          |Z                                          
 VDD                                        |VDD                                        
 VNW                                        |VNW                                        
 VPW                                        |VPW                                        
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__clkinv_1 and gf180mcu_fd_sc_mcu7t5v0__clkinv_1 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__buf_3 and gf180mcu_fd_sc_mcu7t5v0__buf_3 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nand3_1 is a black box; will not flatten Circuit 1
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nand3_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__nand3_2 (0):  Merged 3 parallel devices.
 
 Subcircuit pins:
 Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nand3_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nand3_ 
@@ -518,7 +926,7 @@ VPW                                        |VPW
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__nand3_1 and gf180mcu_fd_sc_mcu7t5v0__nand3_1 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__nand3_2 and gf180mcu_fd_sc_mcu7t5v0__nand3_2 are equivalent.
 
 Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor4_4 is a black box; will not flatten Circuit 1
 Class gf180mcu_fd_sc_mcu7t5v0__nor4_4 (0):  Merged 12 parallel devices.
@@ -539,176 +947,8 @@ VSS                                        |VSS
 Cell pin lists are equivalent.
 Device classes gf180mcu_fd_sc_mcu7t5v0__nor4_4 and gf180mcu_fd_sc_mcu7t5v0__nor4_4 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__dffq_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__dffq_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__dffq_1 
--------------------------------------------|-------------------------------------------
-D                                          |D                                          
-CLK                                        |CLK                                        
-Q                                          |Q                                          
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__dffq_1 and gf180mcu_fd_sc_mcu7t5v0__dffq_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__inv_2 is a black box; will not flatten Circuit 1
-Class gf180mcu_fd_sc_mcu7t5v0__inv_2 (0):  Merged 2 parallel devices.
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__inv_2  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__inv_2  
--------------------------------------------|-------------------------------------------
-I                                          |I                                          
-ZN                                         |ZN                                         
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__inv_2 and gf180mcu_fd_sc_mcu7t5v0__inv_2 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor3_2 is a black box; will not flatten Circuit 1
-Class gf180mcu_fd_sc_mcu7t5v0__nor3_2 (0):  Merged 3 parallel devices.
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nor3_2 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nor3_2 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-A3                                         |A3                                         
-ZN                                         |ZN                                         
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__nor3_2 and gf180mcu_fd_sc_mcu7t5v0__nor3_2 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi211_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi211 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi211 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-B                                          |B                                          
-C                                          |C                                          
-ZN                                         |ZN                                         
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__aoi211_1 and gf180mcu_fd_sc_mcu7t5v0__aoi211_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai211_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai211 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai211 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-B                                          |B                                          
-C                                          |C                                          
-ZN                                         |ZN                                         
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__oai211_1 and gf180mcu_fd_sc_mcu7t5v0__oai211_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__xor2_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__xor2_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__xor2_1 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-Z                                          |Z                                          
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__xor2_1 and gf180mcu_fd_sc_mcu7t5v0__xor2_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nand4_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nand4_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nand4_ 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-A3                                         |A3                                         
-A4                                         |A4                                         
-ZN                                         |ZN                                         
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__nand4_1 and gf180mcu_fd_sc_mcu7t5v0__nand4_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 is a black box; will not flatten Circuit 1
-Class gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 (0):  Merged 2 parallel devices.
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__clkbuf |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__clkbuf 
--------------------------------------------|-------------------------------------------
-I                                          |I                                          
-Z                                          |Z                                          
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 and gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__or2_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__or2_1  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__or2_1  
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-Z                                          |Z                                          
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__or2_1 and gf180mcu_fd_sc_mcu7t5v0__or2_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__or3_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__or3_1  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__or3_1  
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-A3                                         |A3                                         
-Z                                          |Z                                          
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__or3_1 and gf180mcu_fd_sc_mcu7t5v0__or3_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai31_1 is a black box; will not flatten Circuit 1
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai31_4 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__oai31_4 (0):  Merged 17 parallel devices.
 
 Subcircuit pins:
 Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai31_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai31_ 
@@ -724,50 +964,17 @@ VPW                                        |VPW
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__oai31_1 and gf180mcu_fd_sc_mcu7t5v0__oai31_1 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__oai31_4 and gf180mcu_fd_sc_mcu7t5v0__oai31_4 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__buf_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__buf_1  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__buf_1  
--------------------------------------------|-------------------------------------------
-I                                          |I                                          
-Z                                          |Z                                          
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__buf_1 and gf180mcu_fd_sc_mcu7t5v0__buf_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__and4_1 is a black box; will not flatten Circuit 1
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor4_1 is a black box; will not flatten Circuit 1
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__and4_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__and4_1 
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nor4_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nor4_1 
 -------------------------------------------|-------------------------------------------
 A1                                         |A1                                         
 A2                                         |A2                                         
 A3                                         |A3                                         
 A4                                         |A4                                         
-Z                                          |Z                                          
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__and4_1 and gf180mcu_fd_sc_mcu7t5v0__and4_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai22_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai22_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai22_ 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-B1                                         |B1                                         
-B2                                         |B2                                         
 ZN                                         |ZN                                         
 VDD                                        |VDD                                        
 VNW                                        |VNW                                        
@@ -775,15 +982,17 @@ VPW                                        |VPW
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__oai22_1 and gf180mcu_fd_sc_mcu7t5v0__oai22_1 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__nor4_1 and gf180mcu_fd_sc_mcu7t5v0__nor4_1 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__xnor2_1 is a black box; will not flatten Circuit 1
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor3_4 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__nor3_4 (0):  Merged 11 parallel devices.
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__xnor2_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__xnor2_ 
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nor3_4 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nor3_4 
 -------------------------------------------|-------------------------------------------
 A1                                         |A1                                         
 A2                                         |A2                                         
+A3                                         |A3                                         
 ZN                                         |ZN                                         
 VDD                                        |VDD                                        
 VNW                                        |VNW                                        
@@ -791,13 +1000,13 @@ VPW                                        |VPW
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__xnor2_1 and gf180mcu_fd_sc_mcu7t5v0__xnor2_1 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__nor3_4 and gf180mcu_fd_sc_mcu7t5v0__nor3_4 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor2_2 is a black box; will not flatten Circuit 1
-Class gf180mcu_fd_sc_mcu7t5v0__nor2_2 (0):  Merged 2 parallel devices.
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor2_4 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__nor2_4 (0):  Merged 6 parallel devices.
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nor2_2 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nor2_2 
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nor2_4 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nor2_4 
 -------------------------------------------|-------------------------------------------
 A1                                         |A1                                         
 A2                                         |A2                                         
@@ -808,7 +1017,7 @@ VPW                                        |VPW
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__nor2_2 and gf180mcu_fd_sc_mcu7t5v0__nor2_2 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__nor2_4 and gf180mcu_fd_sc_mcu7t5v0__nor2_4 are equivalent.
 
 Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai21_2 is a black box; will not flatten Circuit 1
 Class gf180mcu_fd_sc_mcu7t5v0__oai21_2 (0):  Merged 4 parallel devices.
@@ -847,69 +1056,16 @@ VSS                                        |VSS
 Cell pin lists are equivalent.
 Device classes gf180mcu_fd_sc_mcu7t5v0__oai221_1 and gf180mcu_fd_sc_mcu7t5v0__oai221_1 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__or4_1 is a black box; will not flatten Circuit 1
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai32_1 is a black box; will not flatten Circuit 1
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__or4_1  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__or4_1  
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai32_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai32_ 
 -------------------------------------------|-------------------------------------------
 A1                                         |A1                                         
 A2                                         |A2                                         
 A3                                         |A3                                         
-A4                                         |A4                                         
-Z                                          |Z                                          
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__or4_1 and gf180mcu_fd_sc_mcu7t5v0__or4_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__and3_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__and3_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__and3_1 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-A3                                         |A3                                         
-Z                                          |Z                                          
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__and3_1 and gf180mcu_fd_sc_mcu7t5v0__and3_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor4_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nor4_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nor4_1 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-A3                                         |A3                                         
-A4                                         |A4                                         
-ZN                                         |ZN                                         
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__nor4_1 and gf180mcu_fd_sc_mcu7t5v0__nor4_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi221_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi221 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi221 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
 B1                                         |B1                                         
 B2                                         |B2                                         
-C                                          |C                                          
 ZN                                         |ZN                                         
 VDD                                        |VDD                                        
 VNW                                        |VNW                                        
@@ -917,7 +1073,20 @@ VPW                                        |VPW
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__aoi221_1 and gf180mcu_fd_sc_mcu7t5v0__aoi221_1 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__oai32_1 and gf180mcu_fd_sc_mcu7t5v0__oai32_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__fillcap_64 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__fillca |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__fillca 
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__fillcap_64 and gf180mcu_fd_sc_mcu7t5v0__fillcap_64 are equivalent.
 
 Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nand4_2 is a black box; will not flatten Circuit 1
 Class gf180mcu_fd_sc_mcu7t5v0__nand4_2 (0):  Merged 4 parallel devices.
@@ -938,53 +1107,50 @@ VSS                                        |VSS
 Cell pin lists are equivalent.
 Device classes gf180mcu_fd_sc_mcu7t5v0__nand4_2 and gf180mcu_fd_sc_mcu7t5v0__nand4_2 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nand3_2 is a black box; will not flatten Circuit 1
-Class gf180mcu_fd_sc_mcu7t5v0__nand3_2 (0):  Merged 3 parallel devices.
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__or3_1 is a black box; will not flatten Circuit 1
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nand3_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nand3_ 
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__or3_1  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__or3_1  
 -------------------------------------------|-------------------------------------------
 A1                                         |A1                                         
 A2                                         |A2                                         
 A3                                         |A3                                         
-ZN                                         |ZN                                         
+Z                                          |Z                                          
 VDD                                        |VDD                                        
 VNW                                        |VNW                                        
 VPW                                        |VPW                                        
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__nand3_2 and gf180mcu_fd_sc_mcu7t5v0__nand3_2 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__or3_1 and gf180mcu_fd_sc_mcu7t5v0__or3_1 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai31_2 is a black box; will not flatten Circuit 1
-Class gf180mcu_fd_sc_mcu7t5v0__oai31_2 (0):  Merged 5 parallel devices.
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__and4_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__and4_2 (0):  Merged 2 parallel devices.
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai31_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai31_ 
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__and4_2 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__and4_2 
 -------------------------------------------|-------------------------------------------
 A1                                         |A1                                         
 A2                                         |A2                                         
 A3                                         |A3                                         
-B                                          |B                                          
-ZN                                         |ZN                                         
+A4                                         |A4                                         
+Z                                          |Z                                          
 VDD                                        |VDD                                        
 VNW                                        |VNW                                        
 VPW                                        |VPW                                        
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__oai31_2 and gf180mcu_fd_sc_mcu7t5v0__oai31_2 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__and4_2 and gf180mcu_fd_sc_mcu7t5v0__and4_2 are equivalent.
 
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi211_2 is a black box; will not flatten Circuit 1
-Class gf180mcu_fd_sc_mcu7t5v0__aoi211_2 (0):  Merged 4 parallel devices.
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__nor2_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__nor2_2 (0):  Merged 2 parallel devices.
 
 Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi211 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi211 
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__nor2_2 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__nor2_2 
 -------------------------------------------|-------------------------------------------
 A1                                         |A1                                         
 A2                                         |A2                                         
-B                                          |B                                          
-C                                          |C                                          
 ZN                                         |ZN                                         
 VDD                                        |VDD                                        
 VNW                                        |VNW                                        
@@ -992,44 +1158,7 @@ VPW                                        |VPW
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__aoi211_2 and gf180mcu_fd_sc_mcu7t5v0__aoi211_2 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi22_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi22_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi22_ 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-B1                                         |B1                                         
-B2                                         |B2                                         
-ZN                                         |ZN                                         
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__aoi22_1 and gf180mcu_fd_sc_mcu7t5v0__aoi22_1 are equivalent.
-
-Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai32_1 is a black box; will not flatten Circuit 1
-
-Subcircuit pins:
-Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai32_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai32_ 
--------------------------------------------|-------------------------------------------
-A1                                         |A1                                         
-A2                                         |A2                                         
-A3                                         |A3                                         
-B1                                         |B1                                         
-B2                                         |B2                                         
-ZN                                         |ZN                                         
-VDD                                        |VDD                                        
-VNW                                        |VNW                                        
-VPW                                        |VPW                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes gf180mcu_fd_sc_mcu7t5v0__oai32_1 and gf180mcu_fd_sc_mcu7t5v0__oai32_1 are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__nor2_2 and gf180mcu_fd_sc_mcu7t5v0__nor2_2 are equivalent.
 Flattening unmatched subcell nfet_03v3_KT5AJW in circuit csringosc (0)(1 instance)
 Flattening unmatched subcell ppolyf_u_1k_ACAPAA in circuit csringosc (0)(1 instance)
 
@@ -1062,6 +1191,252 @@ VCC                                        |VCC
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes csringosc and csringosc are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi22_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__aoi22_2 (0):  Merged 4 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi22_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi22_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+B2                                         |B2                                         
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__aoi22_2 and gf180mcu_fd_sc_mcu7t5v0__aoi22_2 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai221_4 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__oai221_4 (0):  Merged 18 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai221 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai221 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+B2                                         |B2                                         
+C                                          |C                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__oai221_4 and gf180mcu_fd_sc_mcu7t5v0__oai221_4 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__clkbuf_8 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__clkbuf_8 (0):  Merged 19 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__clkbuf |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__clkbuf 
+-------------------------------------------|-------------------------------------------
+I                                          |I                                          
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__clkbuf_8 and gf180mcu_fd_sc_mcu7t5v0__clkbuf_8 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi21_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__aoi21_2 (0):  Merged 4 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi21_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi21_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B                                          |B                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__aoi21_2 and gf180mcu_fd_sc_mcu7t5v0__aoi21_2 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__dlyc_1 is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__dlyc_1 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__dlyc_1 
+-------------------------------------------|-------------------------------------------
+I                                          |I                                          
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__dlyc_1 and gf180mcu_fd_sc_mcu7t5v0__dlyc_1 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi211_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__aoi211_2 (0):  Merged 4 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi211 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi211 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B                                          |B                                          
+C                                          |C                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__aoi211_2 and gf180mcu_fd_sc_mcu7t5v0__aoi211_2 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__oai22_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__oai22_2 (0):  Merged 4 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__oai22_ |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__oai22_ 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+B2                                         |B2                                         
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__oai22_2 and gf180mcu_fd_sc_mcu7t5v0__oai22_2 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi211_4 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__aoi211_4 (0):  Merged 12 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi211 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi211 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B                                          |B                                          
+C                                          |C                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__aoi211_4 and gf180mcu_fd_sc_mcu7t5v0__aoi211_4 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__buf_8 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__buf_8 (0):  Merged 20 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__buf_8  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__buf_8  
+-------------------------------------------|-------------------------------------------
+I                                          |I                                          
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__buf_8 and gf180mcu_fd_sc_mcu7t5v0__buf_8 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__clkinv_4 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__clkinv_4 (0):  Merged 6 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__clkinv |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__clkinv 
+-------------------------------------------|-------------------------------------------
+I                                          |I                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__clkinv_4 and gf180mcu_fd_sc_mcu7t5v0__clkinv_4 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__inv_3 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__inv_3 (0):  Merged 4 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__inv_3  |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__inv_3  
+-------------------------------------------|-------------------------------------------
+I                                          |I                                          
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__inv_3 and gf180mcu_fd_sc_mcu7t5v0__inv_3 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__tieh is a black box; will not flatten Circuit 1
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__tieh   |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__tieh   
+-------------------------------------------|-------------------------------------------
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__tieh and gf180mcu_fd_sc_mcu7t5v0__tieh are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__and3_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__and3_2 (0):  Merged 2 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__and3_2 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__and3_2 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+A3                                         |A3                                         
+Z                                          |Z                                          
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__and3_2 and gf180mcu_fd_sc_mcu7t5v0__and3_2 are equivalent.
+
+Circuit 2 cell gf180mcu_fd_sc_mcu7t5v0__aoi222_2 is a black box; will not flatten Circuit 1
+Class gf180mcu_fd_sc_mcu7t5v0__aoi222_2 (0):  Merged 6 parallel devices.
+
+Subcircuit pins:
+Circuit 1: gf180mcu_fd_sc_mcu7t5v0__aoi222 |Circuit 2: gf180mcu_fd_sc_mcu7t5v0__aoi222 
+-------------------------------------------|-------------------------------------------
+A1                                         |A1                                         
+A2                                         |A2                                         
+B1                                         |B1                                         
+B2                                         |B2                                         
+C1                                         |C1                                         
+C2                                         |C2                                         
+ZN                                         |ZN                                         
+VDD                                        |VDD                                        
+VNW                                        |VNW                                        
+VPW                                        |VPW                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes gf180mcu_fd_sc_mcu7t5v0__aoi222_2 and gf180mcu_fd_sc_mcu7t5v0__aoi222_2 are equivalent.
 
 Class csringosc[[0]] (1):  Merged 1 series devices.
 Subcircuit summary:
@@ -1112,61 +1487,6 @@ VCC                                        |VCC
 Cell pin lists are equivalent.
 Device classes bufinv_2 and bufinv_2 are equivalent.
 
-Class clkdiv (0):  Merged 158 parallel devices.
-Class clkdiv (1):  Merged 158 parallel devices.
-Subcircuit summary:
-Circuit 1: clkdiv                          |Circuit 2: clkdiv                          
--------------------------------------------|-------------------------------------------
-gf180mcu_fd_sc_mcu7t5v0__fillcap_4 (53->1) |gf180mcu_fd_sc_mcu7t5v0__fillcap_4 (53->1) 
-gf180mcu_fd_sc_mcu7t5v0__buf_3 (10)        |gf180mcu_fd_sc_mcu7t5v0__buf_3 (10)        
-gf180mcu_fd_sc_mcu7t5v0__fillcap_64 (27->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_64 (27->1 
-gf180mcu_fd_sc_mcu7t5v0__fillcap_8 (20->1) |gf180mcu_fd_sc_mcu7t5v0__fillcap_8 (20->1) 
-gf180mcu_fd_sc_mcu7t5v0__fillcap_16 (32->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_16 (32->1 
-gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 (10)     |gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 (10)     
-gf180mcu_fd_sc_mcu7t5v0__fillcap_32 (31->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_32 (31->1 
-gf180mcu_fd_sc_mcu7t5v0__dffq_2 (10)       |gf180mcu_fd_sc_mcu7t5v0__dffq_2 (10)       
-gf180mcu_fd_sc_mcu7t5v0__inv_1 (10)        |gf180mcu_fd_sc_mcu7t5v0__inv_1 (10)        
-gf180mcu_fd_sc_mcu7t5v0__dlyb_1 (2)        |gf180mcu_fd_sc_mcu7t5v0__dlyb_1 (2)        
-gf180mcu_fd_sc_mcu7t5v0__buf_2 (2)         |gf180mcu_fd_sc_mcu7t5v0__buf_2 (2)         
-gf180mcu_fd_sc_mcu7t5v0__tieh (8)          |gf180mcu_fd_sc_mcu7t5v0__tieh (8)          
-Number of devices: 57                      |Number of devices: 57                      
-Number of nets: 56                         |Number of nets: 56                         
----------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
-Netlists match uniquely.
-
-Subcircuit pins:
-Circuit 1: clkdiv                          |Circuit 2: clkdiv                          
--------------------------------------------|-------------------------------------------
-avo[0]                                     |avo[0]                                     
-dvo[0]                                     |dvo[0]                                     
-uio_oe[7]                                  |uio_oe[7]                                  
-uio_oe[6]                                  |uio_oe[6]                                  
-uio_oe[0]                                  |uio_oe[0]                                  
-uio_oe[5]                                  |uio_oe[5]                                  
-uio_oe[4]                                  |uio_oe[4]                                  
-uio_oe[3]                                  |uio_oe[3]                                  
-uio_oe[2]                                  |uio_oe[2]                                  
-uio_oe[1]                                  |uio_oe[1]                                  
-dac_vco_in                                 |dac_vco_in                                 
-ana_vco_in                                 |ana_vco_in                                 
-avo[5]                                     |avo[5]                                     
-dvo[5]                                     |dvo[5]                                     
-avo[3]                                     |avo[3]                                     
-dvo[3]                                     |dvo[3]                                     
-dvo[4]                                     |dvo[4]                                     
-avo[4]                                     |avo[4]                                     
-dvo[2]                                     |dvo[2]                                     
-avo[2]                                     |avo[2]                                     
-dvo[1]                                     |dvo[1]                                     
-avo[1]                                     |avo[1]                                     
-VDD                                        |VDD                                        
-VSS                                        |VSS                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes clkdiv and clkdiv are equivalent.
-
 Cell controller (0) disconnected node: uio_in[0]
 Cell controller (0) disconnected node: uio_in[1]
 Cell controller (0) disconnected node: uio_in[2]
@@ -1183,8 +1503,8 @@ Cell controller (1) disconnected node: uio_in[3]
 Cell controller (1) disconnected node: uio_in[2]
 Cell controller (1) disconnected node: uio_in[1]
 Cell controller (1) disconnected node: uio_in[0]
-Class controller (0):  Merged 545 parallel devices.
-Class controller (1):  Merged 545 parallel devices.
+Class controller (0):  Merged 544 parallel devices.
+Class controller (1):  Merged 544 parallel devices.
 Cell controller (0) disconnected node: uio_in[0]
 Cell controller (0) disconnected node: uio_in[1]
 Cell controller (0) disconnected node: uio_in[2]
@@ -1204,73 +1524,93 @@ Cell controller (1) disconnected node: uio_in[0]
 Subcircuit summary:
 Circuit 1: controller                      |Circuit 2: controller                      
 -------------------------------------------|-------------------------------------------
-gf180mcu_fd_sc_mcu7t5v0__fillcap_8 (161->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_8 (161->1 
-gf180mcu_fd_sc_mcu7t5v0__nor3_1 (10)       |gf180mcu_fd_sc_mcu7t5v0__nor3_1 (10)       
-gf180mcu_fd_sc_mcu7t5v0__nand2_1 (26)      |gf180mcu_fd_sc_mcu7t5v0__nand2_1 (26)      
-gf180mcu_fd_sc_mcu7t5v0__nor4_2 (3)        |gf180mcu_fd_sc_mcu7t5v0__nor4_2 (3)        
-gf180mcu_fd_sc_mcu7t5v0__fillcap_64 (21->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_64 (21->1 
-gf180mcu_fd_sc_mcu7t5v0__fillcap_4 (181->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_4 (181->1 
-gf180mcu_fd_sc_mcu7t5v0__fillcap_16 (109-> |gf180mcu_fd_sc_mcu7t5v0__fillcap_16 (109-> 
-gf180mcu_fd_sc_mcu7t5v0__oai31_4 (3)       |gf180mcu_fd_sc_mcu7t5v0__oai31_4 (3)       
-gf180mcu_fd_sc_mcu7t5v0__and2_1 (8)        |gf180mcu_fd_sc_mcu7t5v0__and2_1 (8)        
-gf180mcu_fd_sc_mcu7t5v0__nand2_2 (10)      |gf180mcu_fd_sc_mcu7t5v0__nand2_2 (10)      
-gf180mcu_fd_sc_mcu7t5v0__fillcap_32 (78->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_32 (78->1 
-gf180mcu_fd_sc_mcu7t5v0__nor2_1 (27)       |gf180mcu_fd_sc_mcu7t5v0__nor2_1 (27)       
-gf180mcu_fd_sc_mcu7t5v0__oai21_1 (19)      |gf180mcu_fd_sc_mcu7t5v0__oai21_1 (19)      
-gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 (9)     |gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 (9)     
-gf180mcu_fd_sc_mcu7t5v0__oai32_4 (2)       |gf180mcu_fd_sc_mcu7t5v0__oai32_4 (2)       
-gf180mcu_fd_sc_mcu7t5v0__aoi21_1 (30)      |gf180mcu_fd_sc_mcu7t5v0__aoi21_1 (30)      
-gf180mcu_fd_sc_mcu7t5v0__clkinv_1 (24)     |gf180mcu_fd_sc_mcu7t5v0__clkinv_1 (24)     
-gf180mcu_fd_sc_mcu7t5v0__nand3_1 (15)      |gf180mcu_fd_sc_mcu7t5v0__nand3_1 (15)      
-gf180mcu_fd_sc_mcu7t5v0__nor4_4 (1)        |gf180mcu_fd_sc_mcu7t5v0__nor4_4 (1)        
-gf180mcu_fd_sc_mcu7t5v0__dffq_1 (43)       |gf180mcu_fd_sc_mcu7t5v0__dffq_1 (43)       
-gf180mcu_fd_sc_mcu7t5v0__inv_2 (3)         |gf180mcu_fd_sc_mcu7t5v0__inv_2 (3)         
+gf180mcu_fd_sc_mcu7t5v0__fillcap_8 (180->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_8 (180->1 
+gf180mcu_fd_sc_mcu7t5v0__fillcap_4 (214->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_4 (214->1 
+gf180mcu_fd_sc_mcu7t5v0__oai31_1 (2)       |gf180mcu_fd_sc_mcu7t5v0__oai31_1 (2)       
+gf180mcu_fd_sc_mcu7t5v0__nor2_1 (51)       |gf180mcu_fd_sc_mcu7t5v0__nor2_1 (51)       
+gf180mcu_fd_sc_mcu7t5v0__nand2_2 (9)       |gf180mcu_fd_sc_mcu7t5v0__nand2_2 (9)       
+gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 (12)    |gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 (12)    
+gf180mcu_fd_sc_mcu7t5v0__fillcap_16 (114-> |gf180mcu_fd_sc_mcu7t5v0__fillcap_16 (114-> 
+gf180mcu_fd_sc_mcu7t5v0__buf_1 (2)         |gf180mcu_fd_sc_mcu7t5v0__buf_1 (2)         
+gf180mcu_fd_sc_mcu7t5v0__nand3_1 (13)      |gf180mcu_fd_sc_mcu7t5v0__nand3_1 (13)      
+gf180mcu_fd_sc_mcu7t5v0__clkinv_1 (35)     |gf180mcu_fd_sc_mcu7t5v0__clkinv_1 (35)     
+gf180mcu_fd_sc_mcu7t5v0__dffq_2 (15)       |gf180mcu_fd_sc_mcu7t5v0__dffq_2 (15)       
+gf180mcu_fd_sc_mcu7t5v0__buf_4 (17)        |gf180mcu_fd_sc_mcu7t5v0__buf_4 (17)        
+gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 (11)     |gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 (11)     
+gf180mcu_fd_sc_mcu7t5v0__and4_1 (8)        |gf180mcu_fd_sc_mcu7t5v0__and4_1 (8)        
+gf180mcu_fd_sc_mcu7t5v0__aoi21_1 (29)      |gf180mcu_fd_sc_mcu7t5v0__aoi21_1 (29)      
+gf180mcu_fd_sc_mcu7t5v0__fillcap_32 (40->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_32 (40->1 
+gf180mcu_fd_sc_mcu7t5v0__dffq_4 (17)       |gf180mcu_fd_sc_mcu7t5v0__dffq_4 (17)       
+gf180mcu_fd_sc_mcu7t5v0__nor3_1 (12)       |gf180mcu_fd_sc_mcu7t5v0__nor3_1 (12)       
+gf180mcu_fd_sc_mcu7t5v0__mux2_2 (4)        |gf180mcu_fd_sc_mcu7t5v0__mux2_2 (4)        
+gf180mcu_fd_sc_mcu7t5v0__and2_1 (12)       |gf180mcu_fd_sc_mcu7t5v0__and2_1 (12)       
+gf180mcu_fd_sc_mcu7t5v0__oai32_2 (1)       |gf180mcu_fd_sc_mcu7t5v0__oai32_2 (1)       
+gf180mcu_fd_sc_mcu7t5v0__xor2_1 (14)       |gf180mcu_fd_sc_mcu7t5v0__xor2_1 (14)       
+gf180mcu_fd_sc_mcu7t5v0__inv_1 (4)         |gf180mcu_fd_sc_mcu7t5v0__inv_1 (4)         
+gf180mcu_fd_sc_mcu7t5v0__buf_2 (12)        |gf180mcu_fd_sc_mcu7t5v0__buf_2 (12)        
+gf180mcu_fd_sc_mcu7t5v0__oai211_1 (6)      |gf180mcu_fd_sc_mcu7t5v0__oai211_1 (6)      
+gf180mcu_fd_sc_mcu7t5v0__or2_1 (4)         |gf180mcu_fd_sc_mcu7t5v0__or2_1 (4)         
+gf180mcu_fd_sc_mcu7t5v0__aoi21_4 (1)       |gf180mcu_fd_sc_mcu7t5v0__aoi21_4 (1)       
+gf180mcu_fd_sc_mcu7t5v0__nand4_1 (10)      |gf180mcu_fd_sc_mcu7t5v0__nand4_1 (10)      
+gf180mcu_fd_sc_mcu7t5v0__inv_2 (2)         |gf180mcu_fd_sc_mcu7t5v0__inv_2 (2)         
+gf180mcu_fd_sc_mcu7t5v0__oai22_1 (7)       |gf180mcu_fd_sc_mcu7t5v0__oai22_1 (7)       
+gf180mcu_fd_sc_mcu7t5v0__nand2_1 (35)      |gf180mcu_fd_sc_mcu7t5v0__nand2_1 (35)      
+gf180mcu_fd_sc_mcu7t5v0__aoi221_1 (2)      |gf180mcu_fd_sc_mcu7t5v0__aoi221_1 (2)      
 gf180mcu_fd_sc_mcu7t5v0__nor3_2 (2)        |gf180mcu_fd_sc_mcu7t5v0__nor3_2 (2)        
-gf180mcu_fd_sc_mcu7t5v0__aoi211_1 (8)      |gf180mcu_fd_sc_mcu7t5v0__aoi211_1 (8)      
-gf180mcu_fd_sc_mcu7t5v0__oai211_1 (7)      |gf180mcu_fd_sc_mcu7t5v0__oai211_1 (7)      
-gf180mcu_fd_sc_mcu7t5v0__dffq_2 (7)        |gf180mcu_fd_sc_mcu7t5v0__dffq_2 (7)        
-gf180mcu_fd_sc_mcu7t5v0__xor2_1 (11)       |gf180mcu_fd_sc_mcu7t5v0__xor2_1 (11)       
-gf180mcu_fd_sc_mcu7t5v0__nand4_1 (13)      |gf180mcu_fd_sc_mcu7t5v0__nand4_1 (13)      
-gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 (8)      |gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 (8)      
-gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 (1)      |gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 (1)      
-gf180mcu_fd_sc_mcu7t5v0__or2_1 (3)         |gf180mcu_fd_sc_mcu7t5v0__or2_1 (3)         
-gf180mcu_fd_sc_mcu7t5v0__or3_1 (4)         |gf180mcu_fd_sc_mcu7t5v0__or3_1 (4)         
-gf180mcu_fd_sc_mcu7t5v0__oai31_1 (4)       |gf180mcu_fd_sc_mcu7t5v0__oai31_1 (4)       
-gf180mcu_fd_sc_mcu7t5v0__buf_1 (1)         |gf180mcu_fd_sc_mcu7t5v0__buf_1 (1)         
-gf180mcu_fd_sc_mcu7t5v0__and4_1 (7)        |gf180mcu_fd_sc_mcu7t5v0__and4_1 (7)        
-gf180mcu_fd_sc_mcu7t5v0__oai22_1 (2)       |gf180mcu_fd_sc_mcu7t5v0__oai22_1 (2)       
-gf180mcu_fd_sc_mcu7t5v0__xnor2_1 (2)       |gf180mcu_fd_sc_mcu7t5v0__xnor2_1 (2)       
-gf180mcu_fd_sc_mcu7t5v0__dlyb_1 (17)       |gf180mcu_fd_sc_mcu7t5v0__dlyb_1 (17)       
-gf180mcu_fd_sc_mcu7t5v0__buf_2 (8)         |gf180mcu_fd_sc_mcu7t5v0__buf_2 (8)         
-gf180mcu_fd_sc_mcu7t5v0__nor2_2 (1)        |gf180mcu_fd_sc_mcu7t5v0__nor2_2 (1)        
+gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 (6)      |gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 (6)      
+gf180mcu_fd_sc_mcu7t5v0__and3_1 (3)        |gf180mcu_fd_sc_mcu7t5v0__and3_1 (3)        
+gf180mcu_fd_sc_mcu7t5v0__oai21_1 (24)      |gf180mcu_fd_sc_mcu7t5v0__oai21_1 (24)      
+gf180mcu_fd_sc_mcu7t5v0__dlyb_1 (21)       |gf180mcu_fd_sc_mcu7t5v0__dlyb_1 (21)       
+gf180mcu_fd_sc_mcu7t5v0__mux4_1 (1)        |gf180mcu_fd_sc_mcu7t5v0__mux4_1 (1)        
+gf180mcu_fd_sc_mcu7t5v0__nor4_2 (1)        |gf180mcu_fd_sc_mcu7t5v0__nor4_2 (1)        
+gf180mcu_fd_sc_mcu7t5v0__xnor2_1 (1)       |gf180mcu_fd_sc_mcu7t5v0__xnor2_1 (1)       
+gf180mcu_fd_sc_mcu7t5v0__aoi22_1 (12)      |gf180mcu_fd_sc_mcu7t5v0__aoi22_1 (12)      
+gf180mcu_fd_sc_mcu7t5v0__dffq_1 (37)       |gf180mcu_fd_sc_mcu7t5v0__dffq_1 (37)       
+gf180mcu_fd_sc_mcu7t5v0__aoi211_1 (2)      |gf180mcu_fd_sc_mcu7t5v0__aoi211_1 (2)      
+gf180mcu_fd_sc_mcu7t5v0__oai31_2 (5)       |gf180mcu_fd_sc_mcu7t5v0__oai31_2 (5)       
+gf180mcu_fd_sc_mcu7t5v0__xor2_2 (1)        |gf180mcu_fd_sc_mcu7t5v0__xor2_2 (1)        
+gf180mcu_fd_sc_mcu7t5v0__oai32_4 (1)       |gf180mcu_fd_sc_mcu7t5v0__oai32_4 (1)       
+gf180mcu_fd_sc_mcu7t5v0__buf_3 (14)        |gf180mcu_fd_sc_mcu7t5v0__buf_3 (14)        
+gf180mcu_fd_sc_mcu7t5v0__nand3_2 (2)       |gf180mcu_fd_sc_mcu7t5v0__nand3_2 (2)       
+gf180mcu_fd_sc_mcu7t5v0__nor4_4 (1)        |gf180mcu_fd_sc_mcu7t5v0__nor4_4 (1)        
+gf180mcu_fd_sc_mcu7t5v0__oai31_4 (3)       |gf180mcu_fd_sc_mcu7t5v0__oai31_4 (3)       
+gf180mcu_fd_sc_mcu7t5v0__nor4_1 (3)        |gf180mcu_fd_sc_mcu7t5v0__nor4_1 (3)        
+gf180mcu_fd_sc_mcu7t5v0__nor3_4 (3)        |gf180mcu_fd_sc_mcu7t5v0__nor3_4 (3)        
+gf180mcu_fd_sc_mcu7t5v0__nor2_4 (3)        |gf180mcu_fd_sc_mcu7t5v0__nor2_4 (3)        
 gf180mcu_fd_sc_mcu7t5v0__oai21_2 (1)       |gf180mcu_fd_sc_mcu7t5v0__oai21_2 (1)       
 gf180mcu_fd_sc_mcu7t5v0__oai221_1 (2)      |gf180mcu_fd_sc_mcu7t5v0__oai221_1 (2)      
-gf180mcu_fd_sc_mcu7t5v0__or4_1 (3)         |gf180mcu_fd_sc_mcu7t5v0__or4_1 (3)         
-gf180mcu_fd_sc_mcu7t5v0__and3_1 (4)        |gf180mcu_fd_sc_mcu7t5v0__and3_1 (4)        
-gf180mcu_fd_sc_mcu7t5v0__nor4_1 (2)        |gf180mcu_fd_sc_mcu7t5v0__nor4_1 (2)        
-gf180mcu_fd_sc_mcu7t5v0__aoi221_1 (1)      |gf180mcu_fd_sc_mcu7t5v0__aoi221_1 (1)      
-gf180mcu_fd_sc_mcu7t5v0__nand4_2 (1)       |gf180mcu_fd_sc_mcu7t5v0__nand4_2 (1)       
-gf180mcu_fd_sc_mcu7t5v0__nand3_2 (1)       |gf180mcu_fd_sc_mcu7t5v0__nand3_2 (1)       
-gf180mcu_fd_sc_mcu7t5v0__oai31_2 (1)       |gf180mcu_fd_sc_mcu7t5v0__oai31_2 (1)       
-gf180mcu_fd_sc_mcu7t5v0__aoi211_2 (1)      |gf180mcu_fd_sc_mcu7t5v0__aoi211_2 (1)      
-gf180mcu_fd_sc_mcu7t5v0__aoi22_1 (1)       |gf180mcu_fd_sc_mcu7t5v0__aoi22_1 (1)       
 gf180mcu_fd_sc_mcu7t5v0__oai32_1 (1)       |gf180mcu_fd_sc_mcu7t5v0__oai32_1 (1)       
-Number of devices: 363                     |Number of devices: 363                     
-Number of nets: 370                        |Number of nets: 370                        
+gf180mcu_fd_sc_mcu7t5v0__fillcap_64 (1)    |gf180mcu_fd_sc_mcu7t5v0__fillcap_64 (1)    
+gf180mcu_fd_sc_mcu7t5v0__nand4_2 (5)       |gf180mcu_fd_sc_mcu7t5v0__nand4_2 (5)       
+gf180mcu_fd_sc_mcu7t5v0__or3_1 (1)         |gf180mcu_fd_sc_mcu7t5v0__or3_1 (1)         
+gf180mcu_fd_sc_mcu7t5v0__and4_2 (1)        |gf180mcu_fd_sc_mcu7t5v0__and4_2 (1)        
+gf180mcu_fd_sc_mcu7t5v0__nor2_2 (1)        |gf180mcu_fd_sc_mcu7t5v0__nor2_2 (1)        
+Number of devices: 510                     |Number of devices: 510                     
+Number of nets: 524                        |Number of nets: 524                        
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
 Circuit 1: controller                      |Circuit 2: controller                      
 -------------------------------------------|-------------------------------------------
+operand_b[2]                               |operand_b[2]                               
+operand_a[0]                               |operand_a[0]                               
+operand_a[8]                               |operand_a[8]                               
+operand_a[9]                               |operand_a[9]                               
+operand_b[8]                               |operand_b[8]                               
+operand_b[7]                               |operand_b[7]                               
+operand_b[9]                               |operand_b[9]                               
+operand_b[1]                               |operand_b[1]                               
+operand_b[0]                               |operand_b[0]                               
+operand_a[7]                               |operand_a[7]                               
 dacn[0]                                    |dacn[0]                                    
+dacn[2]                                    |dacn[2]                                    
+dacn[6]                                    |dacn[6]                                    
 dacn[1]                                    |dacn[1]                                    
 dacn[3]                                    |dacn[3]                                    
-dacn[5]                                    |dacn[5]                                    
 dacn[4]                                    |dacn[4]                                    
-dacn[6]                                    |dacn[6]                                    
+dacn[5]                                    |dacn[5]                                    
 dacn[7]                                    |dacn[7]                                    
-dacn[2]                                    |dacn[2]                                    
 dacn[8]                                    |dacn[8]                                    
 uo_out[6]                                  |uo_out[6]                                  
 uo_out[5]                                  |uo_out[5]                                  
@@ -1278,18 +1618,46 @@ uo_out[4]                                  |uo_out[4]
 uo_out[2]                                  |uo_out[2]                                  
 uo_out[1]                                  |uo_out[1]                                  
 uo_out[0]                                  |uo_out[0]                                  
+sysclk                                     |sysclk                                     
 uo_out[3]                                  |uo_out[3]                                  
 uo_out[7]                                  |uo_out[7]                                  
-clk                                        |clk                                        
-rst_n                                      |rst_n                                      
 ui_in[5]                                   |ui_in[5]                                   
 ui_in[3]                                   |ui_in[3]                                   
 ui_in[4]                                   |ui_in[4]                                   
+computed[2]                                |computed[2]                                
+computed[4]                                |computed[4]                                
+computed[3]                                |computed[3]                                
+computed[1]                                |computed[1]                                
+computed[5]                                |computed[5]                                
+computed[0]                                |computed[0]                                
+ui_in[7]                                   |ui_in[7]                                   
+done                                       |done                                       
 ui_in[6]                                   |ui_in[6]                                   
+rst_n                                      |rst_n                                      
 ui_in[1]                                   |ui_in[1]                                   
 ui_in[2]                                   |ui_in[2]                                   
 ui_in[0]                                   |ui_in[0]                                   
-ui_in[7]                                   |ui_in[7]                                   
+operand_a[1]                               |operand_a[1]                               
+operand_a[2]                               |operand_a[2]                               
+operand_a[3]                               |operand_a[3]                               
+operand_b[6]                               |operand_b[6]                               
+operand_b[4]                               |operand_b[4]                               
+clk                                        |clk                                        
+worker_reset                               |worker_reset                               
+sysclkdelay[2]                             |sysclkdelay[2]                             
+sysclkdelay[0]                             |sysclkdelay[0]                             
+clksel[0]                                  |clksel[0]                                  
+clksel[2]                                  |clksel[2]                                  
+sysclkdelay[1]                             |sysclkdelay[1]                             
+clksel[1]                                  |clksel[1]                                  
+mode[1]                                    |mode[1]                                    
+mode[2]                                    |mode[2]                                    
+mode[0]                                    |mode[0]                                    
+operand_b[5]                               |operand_b[5]                               
+operand_b[3]                               |operand_b[3]                               
+operand_a[4]                               |operand_a[4]                               
+operand_a[5]                               |operand_a[5]                               
+operand_a[6]                               |operand_a[6]                               
 VDD                                        |VDD                                        
 VSS                                        |VSS                                        
 uio_in[0]                                  |uio_in[0]                                  
@@ -1345,26 +1713,193 @@ vco_vin                                    |vco_vin
 Cell pin lists are equivalent.
 Device classes vco_combo and vco_combo are equivalent.
 
+Cell fastblock (0) disconnected node: operand_a[0]
+Cell fastblock (0) disconnected node: operand_a[1]
+Cell fastblock (0) disconnected node: operand_a[2]
+Cell fastblock (0) disconnected node: operand_a[3]
+Cell fastblock (0) disconnected node: operand_a[4]
+Cell fastblock (0) disconnected node: operand_a[5]
+Cell fastblock (0) disconnected node: operand_a[6]
+Cell fastblock (0) disconnected node: operand_a[7]
+Cell fastblock (0) disconnected node: operand_a[8]
+Cell fastblock (0) disconnected node: operand_a[9]
+Cell fastblock (1) disconnected node: operand_a[9]
+Cell fastblock (1) disconnected node: operand_a[8]
+Cell fastblock (1) disconnected node: operand_a[7]
+Cell fastblock (1) disconnected node: operand_a[6]
+Cell fastblock (1) disconnected node: operand_a[5]
+Cell fastblock (1) disconnected node: operand_a[4]
+Cell fastblock (1) disconnected node: operand_a[3]
+Cell fastblock (1) disconnected node: operand_a[2]
+Cell fastblock (1) disconnected node: operand_a[1]
+Cell fastblock (1) disconnected node: operand_a[0]
+Class fastblock (0):  Merged 223 parallel devices.
+Class fastblock (1):  Merged 223 parallel devices.
+Cell fastblock (0) disconnected node: operand_a[0]
+Cell fastblock (0) disconnected node: operand_a[1]
+Cell fastblock (0) disconnected node: operand_a[2]
+Cell fastblock (0) disconnected node: operand_a[3]
+Cell fastblock (0) disconnected node: operand_a[4]
+Cell fastblock (0) disconnected node: operand_a[5]
+Cell fastblock (0) disconnected node: operand_a[6]
+Cell fastblock (0) disconnected node: operand_a[7]
+Cell fastblock (0) disconnected node: operand_a[8]
+Cell fastblock (0) disconnected node: operand_a[9]
+Cell fastblock (1) disconnected node: operand_a[9]
+Cell fastblock (1) disconnected node: operand_a[8]
+Cell fastblock (1) disconnected node: operand_a[7]
+Cell fastblock (1) disconnected node: operand_a[6]
+Cell fastblock (1) disconnected node: operand_a[5]
+Cell fastblock (1) disconnected node: operand_a[4]
+Cell fastblock (1) disconnected node: operand_a[3]
+Cell fastblock (1) disconnected node: operand_a[2]
+Cell fastblock (1) disconnected node: operand_a[1]
+Cell fastblock (1) disconnected node: operand_a[0]
+Subcircuit summary:
+Circuit 1: fastblock                       |Circuit 2: fastblock                       
+-------------------------------------------|-------------------------------------------
+gf180mcu_fd_sc_mcu7t5v0__aoi22_2 (2)       |gf180mcu_fd_sc_mcu7t5v0__aoi22_2 (2)       
+gf180mcu_fd_sc_mcu7t5v0__dffq_1 (19)       |gf180mcu_fd_sc_mcu7t5v0__dffq_1 (19)       
+gf180mcu_fd_sc_mcu7t5v0__fillcap_4 (82->1) |gf180mcu_fd_sc_mcu7t5v0__fillcap_4 (82->1) 
+gf180mcu_fd_sc_mcu7t5v0__clkinv_1 (19)     |gf180mcu_fd_sc_mcu7t5v0__clkinv_1 (19)     
+gf180mcu_fd_sc_mcu7t5v0__fillcap_16 (24->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_16 (24->1 
+gf180mcu_fd_sc_mcu7t5v0__oai221_4 (2)      |gf180mcu_fd_sc_mcu7t5v0__oai221_4 (2)      
+gf180mcu_fd_sc_mcu7t5v0__fillcap_32 (48->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_32 (48->1 
+gf180mcu_fd_sc_mcu7t5v0__fillcap_8 (44->1) |gf180mcu_fd_sc_mcu7t5v0__fillcap_8 (44->1) 
+gf180mcu_fd_sc_mcu7t5v0__fillcap_64 (30->1 |gf180mcu_fd_sc_mcu7t5v0__fillcap_64 (30->1 
+gf180mcu_fd_sc_mcu7t5v0__nand3_1 (2)       |gf180mcu_fd_sc_mcu7t5v0__nand3_1 (2)       
+gf180mcu_fd_sc_mcu7t5v0__inv_1 (10)        |gf180mcu_fd_sc_mcu7t5v0__inv_1 (10)        
+gf180mcu_fd_sc_mcu7t5v0__and3_1 (6)        |gf180mcu_fd_sc_mcu7t5v0__and3_1 (6)        
+gf180mcu_fd_sc_mcu7t5v0__nor3_2 (1)        |gf180mcu_fd_sc_mcu7t5v0__nor3_2 (1)        
+gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 (1)      |gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 (1)      
+gf180mcu_fd_sc_mcu7t5v0__nand4_1 (1)       |gf180mcu_fd_sc_mcu7t5v0__nand4_1 (1)       
+gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 (3)     |gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 (3)     
+gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 (1)      |gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 (1)      
+gf180mcu_fd_sc_mcu7t5v0__aoi211_1 (8)      |gf180mcu_fd_sc_mcu7t5v0__aoi211_1 (8)      
+gf180mcu_fd_sc_mcu7t5v0__clkbuf_8 (2)      |gf180mcu_fd_sc_mcu7t5v0__clkbuf_8 (2)      
+gf180mcu_fd_sc_mcu7t5v0__and4_2 (4)        |gf180mcu_fd_sc_mcu7t5v0__and4_2 (4)        
+gf180mcu_fd_sc_mcu7t5v0__nand2_2 (1)       |gf180mcu_fd_sc_mcu7t5v0__nand2_2 (1)       
+gf180mcu_fd_sc_mcu7t5v0__aoi21_4 (3)       |gf180mcu_fd_sc_mcu7t5v0__aoi21_4 (3)       
+gf180mcu_fd_sc_mcu7t5v0__aoi21_2 (3)       |gf180mcu_fd_sc_mcu7t5v0__aoi21_2 (3)       
+gf180mcu_fd_sc_mcu7t5v0__dlyc_1 (7)        |gf180mcu_fd_sc_mcu7t5v0__dlyc_1 (7)        
+gf180mcu_fd_sc_mcu7t5v0__and2_1 (3)        |gf180mcu_fd_sc_mcu7t5v0__and2_1 (3)        
+gf180mcu_fd_sc_mcu7t5v0__nor2_1 (8)        |gf180mcu_fd_sc_mcu7t5v0__nor2_1 (8)        
+gf180mcu_fd_sc_mcu7t5v0__aoi21_1 (4)       |gf180mcu_fd_sc_mcu7t5v0__aoi21_1 (4)       
+gf180mcu_fd_sc_mcu7t5v0__buf_2 (14)        |gf180mcu_fd_sc_mcu7t5v0__buf_2 (14)        
+gf180mcu_fd_sc_mcu7t5v0__aoi221_1 (1)      |gf180mcu_fd_sc_mcu7t5v0__aoi221_1 (1)      
+gf180mcu_fd_sc_mcu7t5v0__buf_4 (1)         |gf180mcu_fd_sc_mcu7t5v0__buf_4 (1)         
+gf180mcu_fd_sc_mcu7t5v0__aoi211_2 (1)      |gf180mcu_fd_sc_mcu7t5v0__aoi211_2 (1)      
+gf180mcu_fd_sc_mcu7t5v0__oai22_2 (1)       |gf180mcu_fd_sc_mcu7t5v0__oai22_2 (1)       
+gf180mcu_fd_sc_mcu7t5v0__dlyb_1 (21)       |gf180mcu_fd_sc_mcu7t5v0__dlyb_1 (21)       
+gf180mcu_fd_sc_mcu7t5v0__aoi211_4 (3)      |gf180mcu_fd_sc_mcu7t5v0__aoi211_4 (3)      
+gf180mcu_fd_sc_mcu7t5v0__xnor2_1 (1)       |gf180mcu_fd_sc_mcu7t5v0__xnor2_1 (1)       
+gf180mcu_fd_sc_mcu7t5v0__or2_1 (1)         |gf180mcu_fd_sc_mcu7t5v0__or2_1 (1)         
+gf180mcu_fd_sc_mcu7t5v0__nand2_1 (6)       |gf180mcu_fd_sc_mcu7t5v0__nand2_1 (6)       
+gf180mcu_fd_sc_mcu7t5v0__aoi22_1 (2)       |gf180mcu_fd_sc_mcu7t5v0__aoi22_1 (2)       
+gf180mcu_fd_sc_mcu7t5v0__xor2_1 (2)        |gf180mcu_fd_sc_mcu7t5v0__xor2_1 (2)        
+gf180mcu_fd_sc_mcu7t5v0__nor3_1 (2)        |gf180mcu_fd_sc_mcu7t5v0__nor3_1 (2)        
+gf180mcu_fd_sc_mcu7t5v0__oai211_1 (2)      |gf180mcu_fd_sc_mcu7t5v0__oai211_1 (2)      
+gf180mcu_fd_sc_mcu7t5v0__buf_8 (5)         |gf180mcu_fd_sc_mcu7t5v0__buf_8 (5)         
+gf180mcu_fd_sc_mcu7t5v0__clkinv_4 (1)      |gf180mcu_fd_sc_mcu7t5v0__clkinv_4 (1)      
+gf180mcu_fd_sc_mcu7t5v0__dffq_2 (4)        |gf180mcu_fd_sc_mcu7t5v0__dffq_2 (4)        
+gf180mcu_fd_sc_mcu7t5v0__mux4_1 (2)        |gf180mcu_fd_sc_mcu7t5v0__mux4_1 (2)        
+gf180mcu_fd_sc_mcu7t5v0__inv_3 (1)         |gf180mcu_fd_sc_mcu7t5v0__inv_3 (1)         
+gf180mcu_fd_sc_mcu7t5v0__inv_2 (1)         |gf180mcu_fd_sc_mcu7t5v0__inv_2 (1)         
+gf180mcu_fd_sc_mcu7t5v0__tieh (8)          |gf180mcu_fd_sc_mcu7t5v0__tieh (8)          
+gf180mcu_fd_sc_mcu7t5v0__and3_2 (1)        |gf180mcu_fd_sc_mcu7t5v0__and3_2 (1)        
+gf180mcu_fd_sc_mcu7t5v0__nor3_4 (1)        |gf180mcu_fd_sc_mcu7t5v0__nor3_4 (1)        
+gf180mcu_fd_sc_mcu7t5v0__aoi222_2 (1)      |gf180mcu_fd_sc_mcu7t5v0__aoi222_2 (1)      
+gf180mcu_fd_sc_mcu7t5v0__buf_3 (1)         |gf180mcu_fd_sc_mcu7t5v0__buf_3 (1)         
+gf180mcu_fd_sc_mcu7t5v0__oai21_1 (1)       |gf180mcu_fd_sc_mcu7t5v0__oai21_1 (1)       
+gf180mcu_fd_sc_mcu7t5v0__oai22_1 (1)       |gf180mcu_fd_sc_mcu7t5v0__oai22_1 (1)       
+gf180mcu_fd_sc_mcu7t5v0__dffq_4 (2)        |gf180mcu_fd_sc_mcu7t5v0__dffq_4 (2)        
+Number of devices: 203                     |Number of devices: 203                     
+Number of nets: 223                        |Number of nets: 223                        
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: fastblock                       |Circuit 2: fastblock                       
+-------------------------------------------|-------------------------------------------
+computed[1]                                |computed[1]                                
+computed[2]                                |computed[2]                                
+computed[3]                                |computed[3]                                
+computed[0]                                |computed[0]                                
+computed[4]                                |computed[4]                                
+computed[5]                                |computed[5]                                
+uio_out[1]                                 |uio_out[1]                                 
+uio_out[5]                                 |uio_out[5]                                 
+uio_out[2]                                 |uio_out[2]                                 
+uio_out[6]                                 |uio_out[6]                                 
+uio_out[0]                                 |uio_out[0]                                 
+uio_out[4]                                 |uio_out[4]                                 
+uio_out[3]                                 |uio_out[3]                                 
+uio_out[7]                                 |uio_out[7]                                 
+uio_oe[0]                                  |uio_oe[0]                                  
+uio_oe[1]                                  |uio_oe[1]                                  
+uio_oe[2]                                  |uio_oe[2]                                  
+uio_oe[3]                                  |uio_oe[3]                                  
+uio_oe[4]                                  |uio_oe[4]                                  
+uio_oe[5]                                  |uio_oe[5]                                  
+uio_oe[6]                                  |uio_oe[6]                                  
+uio_oe[7]                                  |uio_oe[7]                                  
+operand_b[5]                               |operand_b[5]                               
+clksel[1]                                  |clksel[1]                                  
+sysclkdelay[1]                             |sysclkdelay[1]                             
+sysclkdelay[0]                             |sysclkdelay[0]                             
+operand_b[9]                               |operand_b[9]                               
+operand_b[6]                               |operand_b[6]                               
+operand_b[3]                               |operand_b[3]                               
+sysclkdelay[2]                             |sysclkdelay[2]                             
+mode[1]                                    |mode[1]                                    
+mode[0]                                    |mode[0]                                    
+clksel[0]                                  |clksel[0]                                  
+reset                                      |reset                                      
+operand_b[7]                               |operand_b[7]                               
+operand_b[4]                               |operand_b[4]                               
+mode[2]                                    |mode[2]                                    
+operand_b[8]                               |operand_b[8]                               
+operand_b[1]                               |operand_b[1]                               
+operand_b[2]                               |operand_b[2]                               
+operand_b[0]                               |operand_b[0]                               
+clksel[2]                                  |clksel[2]                                  
+ana_vco_in                                 |ana_vco_in                                 
+dac_vco_in                                 |dac_vco_in                                 
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+sysclk                                     |sysclk                                     
+done                                       |done                                       
+operand_a[0]                               |operand_a[0]                               
+operand_a[1]                               |operand_a[1]                               
+operand_a[2]                               |operand_a[2]                               
+operand_a[3]                               |operand_a[3]                               
+operand_a[4]                               |operand_a[4]                               
+operand_a[5]                               |operand_a[5]                               
+operand_a[6]                               |operand_a[6]                               
+operand_a[7]                               |operand_a[7]                               
+operand_a[8]                               |operand_a[8]                               
+operand_a[9]                               |operand_a[9]                               
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes fastblock and fastblock are equivalent.
+
 Cell tt_um_algofoogle_gf_analog (0) disconnected node: ena
 Cell tt_um_algofoogle_gf_analog (0) disconnected node: ua[4]
 Cell tt_um_algofoogle_gf_analog (0) disconnected node: ua[5]
 Cell tt_um_algofoogle_gf_analog (0) disconnected node: ua[6]
 Cell tt_um_algofoogle_gf_analog (0) disconnected node: ua[7]
-Cell tt_um_algofoogle_gf_analog (1) disconnected node: ua[7]
-Cell tt_um_algofoogle_gf_analog (1) disconnected node: ua[6]
-Cell tt_um_algofoogle_gf_analog (1) disconnected node: ua[5]
-Cell tt_um_algofoogle_gf_analog (1) disconnected node: ua[4]
-Cell tt_um_algofoogle_gf_analog (1) disconnected node: ena
 Subcircuit summary:
 Circuit 1: tt_um_algofoogle_gf_analog      |Circuit 2: tt_um_algofoogle_gf_analog      
 -------------------------------------------|-------------------------------------------
 bufinv_2 (10)                              |bufinv_2 (10)                              
 csringosc (1)                              |csringosc (1)                              
-clkdiv (1)                                 |clkdiv (1)                                 
 controller (1)                             |controller (1)                             
 vco_combo (1)                              |vco_combo (1)                              
+fastblock (1)                              |fastblock (1)                              
 Number of devices: 14                      |Number of devices: 14                      
-Number of nets: 74                         |Number of nets: 74                         
+Number of nets: 108                        |Number of nets: 108                        
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
@@ -1400,14 +1935,7 @@ uo_out[3]                                  |uo_out[3]
 uo_out[2]                                  |uo_out[2]                                  
 uo_out[1]                                  |uo_out[1]                                  
 uo_out[0]                                  |uo_out[0]                                  
-uio_out[3]                                 |uio_out[3]                                 
-uio_out[2]                                 |uio_out[2]                                 
-uio_out[1]                                 |uio_out[1]                                 
-uio_out[0]                                 |uio_out[0]                                 
-uio_out[7]                                 |uio_out[7]                                 
-uio_out[6]                                 |uio_out[6]                                 
-uio_out[5]                                 |uio_out[5]                                 
-uio_out[4]                                 |uio_out[4]                                 
+ua[2]                                      |ua[2]                                      
 uio_oe[7]                                  |uio_oe[7]                                  
 uio_oe[6]                                  |uio_oe[6]                                  
 uio_oe[5]                                  |uio_oe[5]                                  
@@ -1416,7 +1944,14 @@ uio_oe[3]                                  |uio_oe[3]
 uio_oe[2]                                  |uio_oe[2]                                  
 uio_oe[1]                                  |uio_oe[1]                                  
 uio_oe[0]                                  |uio_oe[0]                                  
-ua[2]                                      |ua[2]                                      
+uio_out[7]                                 |uio_out[7]                                 
+uio_out[6]                                 |uio_out[6]                                 
+uio_out[5]                                 |uio_out[5]                                 
+uio_out[4]                                 |uio_out[4]                                 
+uio_out[3]                                 |uio_out[3]                                 
+uio_out[2]                                 |uio_out[2]                                 
+uio_out[1]                                 |uio_out[1]                                 
+uio_out[0]                                 |uio_out[0]                                 
 ua[3]                                      |ua[3]                                      
 ua[1]                                      |ua[1]                                      
 ena                                        |ena                                        
